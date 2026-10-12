@@ -1,0 +1,33 @@
+# Godot
+.godot/
+*.import
+export.cfg
+export_presets.cfg
+build/
+
+# Local tooling / editor metadata
+.claude/worktrees/
+.worktrees/
+CLAUDE.md
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local tests and temporary files
+tests/
+*.tmp
+
+# Legacy source-material workspace (not part of public Godot repo)
+bin/
+upstream_source/
+chapters/
+docs/
+output/
+plan/
+tmp/
+毕业论文-完整初稿.md
+毕业论文-封面信息模板.md
+.superpowers/

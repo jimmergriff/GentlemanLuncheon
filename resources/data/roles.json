@@ -1,0 +1,172 @@
+{
+	"roles": [
+		{
+			"id": "beach",
+			"source_role": "ROLE_BEACH",
+			"name": "Jimmer",
+			"player_type": "fighter",
+			"stats": {
+				"cur_hp": 1800,
+				"max_hp": 1800,
+				"punch": 80,
+				"kick": 160,
+				"speed": 150,
+				"throw": 100,
+				"defense": 110
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/beach.json",
+			"portrait": "assets/roles/beach/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "spence",
+			"source_role": "ROLE_SPENCE",
+			"name": "Spence",
+			"player_type": "fighter",
+			"stats": {
+				"cur_hp": 2200,
+				"max_hp": 2200,
+				"punch": 160,
+				"kick": 120,
+				"speed": 90,
+				"throw": 180,
+				"defense": 170
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/spence.json",
+			"portrait": "assets/roles/spence/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "vince",
+			"source_role": "ROLE_VINCE",
+			"name": "Vince",
+			"player_type": "fighter",
+			"stats": {
+				"cur_hp": 1800,
+				"max_hp": 1800,
+				"punch": 120,
+				"kick": 140,
+				"speed": 130,
+				"throw": 110,
+				"defense": 120
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/vince.json",
+			"portrait": "assets/roles/vince/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "rick",
+			"source_role": "ROLE_RICK",
+			"name": "Rick",
+			"player_type": "fighter",
+			"stats": {
+				"cur_hp": 1700,
+				"max_hp": 1700,
+				"punch": 140,
+				"kick": 90,
+				"speed": 160,
+				"throw": 90,
+				"defense": 100
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/rick.json",
+			"portrait": "assets/roles/rick/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "ryguy",
+			"source_role": "ROLE_RYGUY",
+			"name": "Ryguy",
+			"player_type": "fighter",
+			"stats": {
+				"cur_hp": 1900,
+				"max_hp": 1900,
+				"punch": 120,
+				"kick": 180,
+				"speed": 120,
+				"throw": 120,
+				"defense": 140
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/ryguy.json",
+			"portrait": "assets/roles/ryguy/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "nate",
+			"source_role": "ROLE_NATE",
+			"name": "Nate-O-Rade",
+			"player_type": "fighter",
+			"stats": {
+				"cur_hp": 2100,
+				"max_hp": 2100,
+				"punch": 150,
+				"kick": 150,
+				"speed": 100,
+				"throw": 170,
+				"defense": 160
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/nate.json",
+			"portrait": "assets/roles/nate/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "eril",
+			"source_role": "ROLE_ERIL",
+			"name": "Eril",
+			"player_type": "fighter",
+			"stats": {
+				"cur_hp": 1800,
+				"max_hp": 1800,
+				"punch": 100,
+				"kick": 120,
+				"speed": 140,
+				"throw": 100,
+				"defense": 130
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/eril.json",
+			"portrait": "assets/roles/eril/front.png",
+			"default_action": "stance"
+		}
+	]
+}

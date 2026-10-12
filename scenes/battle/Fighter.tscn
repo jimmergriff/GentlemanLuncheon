@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1xjn1wf0yrl0"]
+
+[ext_resource type="Script" path="res://scripts/battle/fighter.gd" id="1_v2r1x"]
+[ext_resource type="Texture2D" path="res://assets/extracted/main/shadow.png" id="2_1otj0"]
+
+[node name="Fighter" type="Node2D"]
+script = ExtResource("1_v2r1x")
+
+[node name="Shadow" type="Sprite2D" parent="."]
+position = Vector2(0, -4)
+texture = ExtResource("2_1otj0")
+
+[node name="Visual" type="Sprite2D" parent="."]
+centered = true

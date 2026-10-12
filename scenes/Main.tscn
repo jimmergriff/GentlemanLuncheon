@@ -1,0 +1,520 @@
+[gd_scene format=3 uid="uid://d3tqfg0xmqyow"]
+
+[ext_resource type="Script" uid="uid://c453b6xgfqpyp" path="res://scripts/ui/app_controller.gd" id="1_app"]
+[ext_resource type="Theme" uid="uid://bnc0aw2bwvnxy" path="res://resources/fury_poster_theme.tres" id="2_theme"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_menu_ticket"]
+bg_color = Color(0.141176, 0.0352941, 0.027451, 0.94)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 0.545098, 0.301961, 0.95)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+shadow_color = Color(0, 0, 0, 0.42)
+shadow_size = 16
+shadow_offset = Vector2(0, 5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_hero_poster"]
+bg_color = Color(0.109804, 0.0313726, 0.0235294, 0.76)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.996078, 0.772549, 0.411765, 0.9)
+corner_radius_top_left = 26
+corner_radius_top_right = 26
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 26
+shadow_color = Color(0, 0, 0, 0.4)
+shadow_size = 18
+shadow_offset = Vector2(0, 6)
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_submenu_ticket"]
+bg_color = Color(0.121569, 0.0352941, 0.027451, 0.95)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 0.545098, 0.301961, 0.92)
+corner_radius_top_left = 22
+corner_radius_top_right = 22
+corner_radius_bottom_right = 22
+corner_radius_bottom_left = 22
+shadow_color = Color(0, 0, 0, 0.36)
+shadow_size = 12
+shadow_offset = Vector2(0, 4)
+
+[node name="Main" type="Control" unique_id=186216993]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_theme")
+script = ExtResource("1_app")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1558838485]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 1
+
+[node name="BattleHost" type="Node2D" parent="." unique_id=1538593289]
+
+[node name="BackgroundShade" type="ColorRect" parent="." unique_id=1307050791]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.027451, 0.0431373, 0.0862745, 0.76)
+
+[node name="MenuLayer" type="Node2D" parent="." unique_id=2100933822]
+
+[node name="LogoStack" type="Control" parent="MenuLayer" unique_id=236064727]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 40.0
+offset_top = 26.0
+offset_right = 344.0
+offset_bottom = 178.0
+
+[node name="LogoSlashTop" type="ColorRect" parent="MenuLayer/LogoStack" unique_id=2032742634]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 6.0
+offset_right = 286.0
+offset_bottom = 18.0
+rotation = -0.122173
+color = Color(1, 0.545098, 0.301961, 0.75)
+
+[node name="Logo" type="TextureRect" parent="MenuLayer/LogoStack" unique_id=1713826557]
+layout_mode = 0
+offset_top = 18.0
+offset_right = 304.0
+offset_bottom = 150.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LogoUnderline" type="ColorRect" parent="MenuLayer/LogoStack" unique_id=929427073]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 138.0
+offset_right = 236.0
+offset_bottom = 146.0
+color = Color(0.996078, 0.772549, 0.411765, 0.9)
+
+[node name="MenuTicket" type="Panel" parent="MenuLayer" unique_id=150773007]
+offset_left = 41.0
+offset_top = 177.0
+offset_right = 325.0
+offset_bottom = 553.0
+theme = ExtResource("2_theme")
+theme_override_styles/panel = SubResource("StyleBox_menu_ticket")
+
+[node name="TicketAccentTop" type="ColorRect" parent="MenuLayer/MenuTicket" unique_id=1050885670]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 18.0
+offset_right = 182.0
+offset_bottom = 26.0
+color = Color(0.996078, 0.772549, 0.411765, 0.95)
+
+[node name="TicketAccentGlow" type="ColorRect" parent="MenuLayer/MenuTicket" unique_id=1174771310]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 30.0
+offset_right = 246.0
+offset_bottom = 34.0
+color = Color(1, 0.545098, 0.301961, 0.82)
+
+[node name="MainMenu" type="VBoxContainer" parent="MenuLayer/MenuTicket" unique_id=1753739552]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 84.0
+offset_right = 254.0
+offset_bottom = 338.0
+theme = ExtResource("2_theme")
+theme_override_constants/separation = 14
+
+[node name="SingleGame" type="Button" parent="MenuLayer/MenuTicket/MainMenu" unique_id=1394664537]
+custom_minimum_size = Vector2(220, 48)
+layout_mode = 2
+text = "Single Game"
+
+[node name="NetworkBattle" type="Button" parent="MenuLayer/MenuTicket/MainMenu" unique_id=1713015532]
+custom_minimum_size = Vector2(220, 48)
+layout_mode = 2
+text = "Network Battle"
+
+[node name="Options" type="Button" parent="MenuLayer/MenuTicket/MainMenu" unique_id=210942161]
+custom_minimum_size = Vector2(220, 48)
+layout_mode = 2
+text = "Options"
+
+[node name="Help" type="Button" parent="MenuLayer/MenuTicket/MainMenu" unique_id=1542864852]
+custom_minimum_size = Vector2(220, 48)
+layout_mode = 2
+text = "Help"
+
+[node name="Quit" type="Button" parent="MenuLayer/MenuTicket/MainMenu" unique_id=2119772700]
+custom_minimum_size = Vector2(220, 48)
+layout_mode = 2
+text = "Quit"
+
+[node name="HeroPoster" type="Panel" parent="MenuLayer" unique_id=1521846257]
+offset_left = 352.0
+offset_top = 96.0
+offset_right = 754.0
+offset_bottom = 524.0
+theme = ExtResource("2_theme")
+theme_override_styles/panel = SubResource("StyleBox_hero_poster")
+
+[node name="StripeTop" type="ColorRect" parent="MenuLayer/HeroPoster" unique_id=890533626]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 26.0
+offset_right = 310.0
+offset_bottom = 36.0
+rotation = -0.10472
+color = Color(0.996078, 0.772549, 0.411765, 0.92)
+
+[node name="StripeBottom" type="ColorRect" parent="MenuLayer/HeroPoster" unique_id=1578496315]
+layout_mode = 0
+offset_left = 146.0
+offset_top = 320.0
+offset_right = 378.0
+offset_bottom = 330.0
+rotation = -0.10472
+color = Color(1, 0.545098, 0.301961, 0.84)
+
+[node name="Figure" type="ColorRect" parent="MenuLayer/HeroPoster" unique_id=1107229873]
+layout_mode = 0
+offset_left = 166.0
+offset_top = 54.0
+offset_right = 354.0
+offset_bottom = 404.0
+color = Color(0.823529, 0.27451, 0.145098, 0.48)
+
+[node name="Stamp" type="TextureRect" parent="MenuLayer/HeroPoster" unique_id=1266792146]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 42.0
+offset_right = 152.0
+offset_bottom = 160.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="SubmenuPanel" type="Panel" parent="MenuLayer" unique_id=374483760]
+offset_left = 523.0
+offset_top = 178.0
+offset_right = 803.0
+offset_bottom = 468.0
+theme = ExtResource("2_theme")
+theme_override_styles/panel = SubResource("StyleBox_submenu_ticket")
+
+[node name="Title" type="Label" parent="MenuLayer/SubmenuPanel" unique_id=1606967804]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 16.0
+offset_right = 240.0
+offset_bottom = 46.0
+theme_override_colors/font_color = Color(0.996078, 0.870588, 0.34902, 1)
+theme_override_font_sizes/font_size = 24
+text = "Single Game"
+
+[node name="Buttons" type="VBoxContainer" parent="MenuLayer/SubmenuPanel" unique_id=1954498538]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 58.0
+offset_right = 262.0
+offset_bottom = 236.0
+theme_override_constants/separation = 10
+
+[node name="Mode2v2" type="Button" parent="MenuLayer/SubmenuPanel/Buttons" unique_id=582982079]
+custom_minimum_size = Vector2(220, 42)
+layout_mode = 2
+text = "2v2 Battle"
+
+[node name="Scuffle" type="Button" parent="MenuLayer/SubmenuPanel/Buttons" unique_id=2115323506]
+custom_minimum_size = Vector2(220, 42)
+layout_mode = 2
+text = "4-Player Scuffle"
+
+[node name="Back" type="Button" parent="MenuLayer/SubmenuPanel/Buttons" unique_id=1469505376]
+custom_minimum_size = Vector2(220, 42)
+layout_mode = 2
+text = "Back"
+
+[node name="TrainingDummy" type="Button" parent="MenuLayer/SubmenuPanel/Buttons" unique_id=1892854747]
+custom_minimum_size = Vector2(220, 42)
+layout_mode = 2
+text = "Training Dummy"
+
+[node name="KeyboardSettings" type="Button" parent="MenuLayer/SubmenuPanel/Buttons" unique_id=85335583]
+custom_minimum_size = Vector2(220, 42)
+layout_mode = 2
+text = "Keyboard Settings"
+
+[node name="WindowToggle" type="Button" parent="MenuLayer/SubmenuPanel/Buttons" unique_id=1294985907]
+custom_minimum_size = Vector2(220, 42)
+layout_mode = 2
+text = "Toggle Fullscreen"
+
+[node name="HowToPlay" type="Button" parent="MenuLayer/SubmenuPanel/Buttons" unique_id=874257955]
+custom_minimum_size = Vector2(220, 42)
+layout_mode = 2
+text = "How to Play"
+
+[node name="FrontWaveA" type="Sprite2D" parent="MenuLayer" unique_id=1553470454]
+position = Vector2(0, 515)
+centered = false
+
+[node name="FrontWaveB" type="Sprite2D" parent="MenuLayer" unique_id=1995639980]
+position = Vector2(997, 515)
+centered = false
+
+[node name="BackWaveA" type="Sprite2D" parent="MenuLayer" unique_id=212081406]
+position = Vector2(0, 500)
+centered = false
+
+[node name="BackWaveB" type="Sprite2D" parent="MenuLayer" unique_id=1303281904]
+position = Vector2(1009, 500)
+centered = false
+
+[node name="RoleSelectLayer" type="CanvasLayer" parent="." unique_id=47335512]
+
+[node name="RoleSelect" type="Panel" parent="RoleSelectLayer" unique_id=111334769]
+visible = false
+offset_left = 40.0
+offset_top = 28.0
+offset_right = 760.0
+offset_bottom = 572.0
+theme = ExtResource("2_theme")
+theme_override_styles/panel = SubResource("StyleBox_menu_ticket")
+
+[node name="Title" type="Label" parent="RoleSelectLayer/RoleSelect" unique_id=2131164349]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 18.0
+offset_right = 340.0
+offset_bottom = 54.0
+theme_override_colors/font_color = Color(0.996078, 0.870588, 0.34902, 1)
+theme_override_font_sizes/font_size = 28
+text = "Select Fighter"
+
+[node name="Subtitle" type="Label" parent="RoleSelectLayer/RoleSelect" unique_id=971405198]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 52.0
+offset_right = 300.0
+offset_bottom = 74.0
+theme_override_colors/font_color = Color(1, 0.823529, 0.552941, 0.88)
+theme_override_font_sizes/font_size = 12
+text = "CAST POSTER / 热血阵容"
+
+[node name="InfoBoard" type="Panel" parent="RoleSelectLayer/RoleSelect" unique_id=1712920206]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 92.0
+offset_right = 286.0
+offset_bottom = 412.0
+theme = ExtResource("2_theme")
+theme_override_styles/panel = SubResource("StyleBox_submenu_ticket")
+
+[node name="Info" type="Control" parent="RoleSelectLayer/RoleSelect/InfoBoard" unique_id=65306963]
+anchors_preset = 0
+offset_left = 18.0
+offset_top = 20.0
+offset_right = 236.0
+offset_bottom = 192.0
+
+[node name="PreviewBox" type="Panel" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info" unique_id=833848956]
+layout_mode = 0
+offset_right = 116.0
+offset_bottom = 144.0
+theme = ExtResource("2_theme")
+
+[node name="Preview" type="TextureRect" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/PreviewBox" unique_id=39312211]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 106.0
+offset_bottom = 134.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RoleName" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info" unique_id=441553018]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 4.0
+offset_right = 232.0
+offset_bottom = 38.0
+theme_override_colors/font_color = Color(0.996078, 0.870588, 0.34902, 1)
+theme_override_font_sizes/font_size = 22
+text = "Role"
+
+[node name="StatsGrid" type="GridContainer" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info" unique_id=2053868365]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 42.0
+offset_right = 236.0
+offset_bottom = 170.0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 8
+columns = 2
+
+[node name="HpLabel" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=505799703]
+layout_mode = 2
+text = "HP"
+
+[node name="HpValue" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=1349835475]
+layout_mode = 2
+text = "0"
+
+[node name="PunchLabel" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=1638654221]
+layout_mode = 2
+text = "Punch"
+
+[node name="PunchBar" type="ProgressBar" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=1500033408]
+custom_minimum_size = Vector2(100, 18)
+layout_mode = 2
+show_percentage = false
+
+[node name="KickLabel" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=1652695298]
+layout_mode = 2
+text = "Kick"
+
+[node name="KickBar" type="ProgressBar" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=909692127]
+custom_minimum_size = Vector2(100, 18)
+layout_mode = 2
+show_percentage = false
+
+[node name="DefenseLabel" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=1627435044]
+layout_mode = 2
+text = "Defense"
+
+[node name="DefenseBar" type="ProgressBar" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=875885184]
+custom_minimum_size = Vector2(100, 18)
+layout_mode = 2
+show_percentage = false
+
+[node name="ThrowLabel" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=572915230]
+layout_mode = 2
+text = "Throw"
+
+[node name="ThrowBar" type="ProgressBar" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=2067347288]
+custom_minimum_size = Vector2(100, 18)
+layout_mode = 2
+show_percentage = false
+
+[node name="SpeedLabel" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=574150429]
+layout_mode = 2
+text = "Speed"
+
+[node name="SpeedBar" type="ProgressBar" parent="RoleSelectLayer/RoleSelect/InfoBoard/Info/StatsGrid" unique_id=885419905]
+custom_minimum_size = Vector2(100, 18)
+layout_mode = 2
+show_percentage = false
+
+[node name="Skills" type="Panel" parent="RoleSelectLayer/RoleSelect/InfoBoard" unique_id=555623569]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 204.0
+offset_right = 236.0
+offset_bottom = 292.0
+theme = ExtResource("2_theme")
+theme_override_styles/panel = SubResource("StyleBox_menu_ticket")
+
+[node name="SkillTitle" type="Label" parent="RoleSelectLayer/RoleSelect/InfoBoard/Skills" unique_id=1353288447]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 12.0
+offset_right = 188.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.996078, 0.870588, 0.34902, 1)
+theme_override_font_sizes/font_size = 22
+text = "Skills"
+
+[node name="SkillList" type="RichTextLabel" parent="RoleSelectLayer/RoleSelect/InfoBoard/Skills" unique_id=1648895191]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 42.0
+offset_right = 196.0
+offset_bottom = 76.0
+text = "-"
+scroll_active = false
+autowrap_mode = 2
+shortcut_keys_enabled = false
+
+[node name="RosterStrip" type="Panel" parent="RoleSelectLayer/RoleSelect" unique_id=938031980]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 430.0
+offset_right = 694.0
+offset_bottom = 520.0
+theme = ExtResource("2_theme")
+theme_override_styles/panel = SubResource("StyleBox_submenu_ticket")
+
+[node name="StripLabel" type="Label" parent="RoleSelectLayer/RoleSelect/RosterStrip" unique_id=30909527]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 12.0
+offset_right = 124.0
+offset_bottom = 30.0
+theme_override_colors/font_color = Color(1, 0.823529, 0.552941, 0.9)
+theme_override_font_sizes/font_size = 12
+text = "CAST / 阵容"
+
+[node name="Cards" type="HBoxContainer" parent="RoleSelectLayer/RoleSelect/RosterStrip" unique_id=962787530]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 36.0
+offset_right = 458.0
+offset_bottom = 76.0
+theme_override_constants/separation = 10
+
+[node name="Buttons" type="HBoxContainer" parent="RoleSelectLayer/RoleSelect/RosterStrip" unique_id=316627515]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 34.0
+offset_right = 652.0
+offset_bottom = 78.0
+theme_override_constants/separation = 10
+alignment = 2
+
+[node name="PrevButton" type="Button" parent="RoleSelectLayer/RoleSelect/RosterStrip/Buttons" unique_id=1411592959]
+custom_minimum_size = Vector2(108, 42)
+layout_mode = 2
+text = "Prev"
+
+[node name="NextButton" type="Button" parent="RoleSelectLayer/RoleSelect/RosterStrip/Buttons" unique_id=1537038016]
+custom_minimum_size = Vector2(108, 42)
+layout_mode = 2
+text = "Next"
+
+[node name="SelectButton" type="Button" parent="RoleSelectLayer/RoleSelect/RosterStrip/Buttons" unique_id=1660083967]
+custom_minimum_size = Vector2(108, 42)
+layout_mode = 2
+text = "Select"
+
+[node name="BackButton" type="Button" parent="RoleSelectLayer/RoleSelect/RosterStrip/Buttons" unique_id=152261761]
+custom_minimum_size = Vector2(108, 42)
+layout_mode = 2
+text = "Back"
+
+[node name="MessageDialog" type="AcceptDialog" parent="." unique_id=1375920004]
+oversampling_override = 1.0
+title = "Notice"
+size = Vector2i(380, 140)
+theme = ExtResource("2_theme")

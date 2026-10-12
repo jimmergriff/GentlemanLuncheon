@@ -1,0 +1,3211 @@
+{
+  "resources": {
+	"main": {
+	  "class_name": "graphics::main",
+	  "items": [
+		{
+		  "name": "front-wave-img",
+		  "size": [
+			997,
+			85
+		  ],
+		  "path": "assets/extracted/main/front-wave-img.png"
+		},
+		{
+		  "name": "back-wave-img",
+		  "size": [
+			1009,
+			100
+		  ],
+		  "path": "assets/extracted/main/back-wave-img.png"
+		},
+		{
+		  "name": "main-logo",
+		  "size": [
+			175,
+			128
+		  ],
+		  "path": "assets/extracted/main/main-logo.png"
+		},
+		{
+		  "name": "game-logo",
+		  "size": [
+			64,
+			64
+		  ],
+		  "path": "assets/extracted/main/game-logo.png"
+		},
+		{
+		  "name": "background-image",
+		  "size": [
+			26,
+			26
+		  ],
+		  "path": "assets/extracted/main/background-image.png"
+		},
+		{
+		  "name": "avatar-unknown",
+		  "size": [
+			46,
+			46
+		  ],
+		  "path": "assets/extracted/main/avatar-unknown.png"
+		},
+		{
+		  "name": "shadow",
+		  "size": [
+			48,
+			17
+		  ],
+		  "path": "assets/extracted/main/shadow.png"
+		}
+	  ]
+	},
+	"scenes": {
+	  "class_name": "graphics::senes",
+	  "items": []
+	},
+	"font": {
+	  "class_name": "graphics::font",
+	  "items": [
+		{
+		  "name": "0",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/0.png"
+		},
+		{
+		  "name": "1",
+		  "size": [
+			10,
+			18
+		  ],
+		  "path": "assets/extracted/font/1.png"
+		},
+		{
+		  "name": "2",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/2.png"
+		},
+		{
+		  "name": "3",
+		  "size": [
+			10,
+			18
+		  ],
+		  "path": "assets/extracted/font/3.png"
+		},
+		{
+		  "name": "4",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/4.png"
+		},
+		{
+		  "name": "5",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/5.png"
+		},
+		{
+		  "name": "6",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/6.png"
+		},
+		{
+		  "name": "7",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/7.png"
+		},
+		{
+		  "name": "8",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/8.png"
+		},
+		{
+		  "name": "9",
+		  "size": [
+			11,
+			18
+		  ],
+		  "path": "assets/extracted/font/9.png"
+		},
+		{
+		  "name": "x",
+		  "size": [
+			12,
+			18
+		  ],
+		  "path": "assets/extracted/font/x.png"
+		},
+		{
+		  "name": "red-0",
+		  "size": [
+			19,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-0.png"
+		},
+		{
+		  "name": "red-1",
+		  "size": [
+			17,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-1.png"
+		},
+		{
+		  "name": "red-2",
+		  "size": [
+			18,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-2.png"
+		},
+		{
+		  "name": "red-3",
+		  "size": [
+			17,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-3.png"
+		},
+		{
+		  "name": "red-4",
+		  "size": [
+			19,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-4.png"
+		},
+		{
+		  "name": "red-5",
+		  "size": [
+			17,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-5.png"
+		},
+		{
+		  "name": "red-6",
+		  "size": [
+			18,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-6.png"
+		},
+		{
+		  "name": "red-7",
+		  "size": [
+			18,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-7.png"
+		},
+		{
+		  "name": "red-8",
+		  "size": [
+			18,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-8.png"
+		},
+		{
+		  "name": "red-9",
+		  "size": [
+			18,
+			24
+		  ],
+		  "path": "assets/extracted/font/red-9.png"
+		}
+	  ]
+	},
+	"kunio": {
+	  "class_name": "graphics::action::kuni",
+	  "items": [
+		{
+		  "name": "start-01",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/start-01.png"
+		},
+		{
+		  "name": "start-02",
+		  "size": [
+			40,
+			60
+		  ],
+		  "path": "assets/extracted/roles/kunio/start-02.png"
+		},
+		{
+		  "name": "ready",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/ready.png"
+		},
+		{
+		  "name": "stance",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/kunio/stance.png"
+		},
+		{
+		  "name": "A-attack-01",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/A-attack-01.png"
+		},
+		{
+		  "name": "A-attack-02",
+		  "size": [
+			60,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/A-attack-02.png"
+		},
+		{
+		  "name": "A-sprint-attack",
+		  "size": [
+			44,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/A-sprint-attack.png"
+		},
+		{
+		  "name": "A-sprint-jump-attack",
+		  "size": [
+			64,
+			34
+		  ],
+		  "path": "assets/extracted/roles/kunio/A-sprint-jump-attack.png"
+		},
+		{
+		  "name": "B-attack-01",
+		  "size": [
+			46,
+			60
+		  ],
+		  "path": "assets/extracted/roles/kunio/B-attack-01.png"
+		},
+		{
+		  "name": "B-attack-02",
+		  "size": [
+			56,
+			60
+		  ],
+		  "path": "assets/extracted/roles/kunio/B-attack-02.png"
+		},
+		{
+		  "name": "B-sprint-attack",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/kunio/B-sprint-attack.png"
+		},
+		{
+		  "name": "back-be-catch",
+		  "size": [
+			38,
+			56
+		  ],
+		  "path": "assets/extracted/roles/kunio/back-be-catch.png"
+		},
+		{
+		  "name": "kick",
+		  "size": [
+			62,
+			60
+		  ],
+		  "path": "assets/extracted/roles/kunio/kick.png"
+		},
+		{
+		  "name": "catch",
+		  "size": [
+			40,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/catch.png"
+		},
+		{
+		  "name": "defense",
+		  "size": [
+			43,
+			52
+		  ],
+		  "path": "assets/extracted/roles/kunio/defense.png"
+		},
+		{
+		  "name": "defense++",
+		  "size": [
+			40,
+			34
+		  ],
+		  "path": "assets/extracted/roles/kunio/defense++.png"
+		},
+		{
+		  "name": "fall",
+		  "size": [
+			32,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/fall.png"
+		},
+		{
+		  "name": "final-blow-01",
+		  "size": [
+			68,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/final-blow-01.png"
+		},
+		{
+		  "name": "final-blow-02",
+		  "size": [
+			68,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/final-blow-02.png"
+		},
+		{
+		  "name": "final-blow-03",
+		  "size": [
+			68,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/final-blow-03.png"
+		},
+		{
+		  "name": "final-blow-04",
+		  "size": [
+			68,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/final-blow-04.png"
+		},
+		{
+		  "name": "hit",
+		  "size": [
+			48,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/hit.png"
+		},
+		{
+		  "name": "hit-fly",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/kunio/hit-fly.png"
+		},
+		{
+		  "name": "hit-fly-fall",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/kunio/hit-fly-fall.png"
+		},
+		{
+		  "name": "jump-elbow",
+		  "size": [
+			62,
+			48
+		  ],
+		  "path": "assets/extracted/roles/kunio/jump-elbow.png"
+		},
+		{
+		  "name": "squat",
+		  "size": [
+			44,
+			48
+		  ],
+		  "path": "assets/extracted/roles/kunio/squat.png"
+		},
+		{
+		  "name": "jump",
+		  "size": [
+			32,
+			54
+		  ],
+		  "path": "assets/extracted/roles/kunio/jump.png"
+		},
+		{
+		  "name": "lift-fall",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/lift-fall.png"
+		},
+		{
+		  "name": "lift-jump",
+		  "size": [
+			42,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/lift-jump.png"
+		},
+		{
+		  "name": "lift-run",
+		  "size": [
+			42,
+			48
+		  ],
+		  "path": "assets/extracted/roles/kunio/lift-run.png"
+		},
+		{
+		  "name": "lift-walk-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/kunio/lift-walk-01.png"
+		},
+		{
+		  "name": "lift-walk-02",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/kunio/lift-walk-02.png"
+		},
+		{
+		  "name": "lift",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/kunio/lift.png"
+		},
+		{
+		  "name": "tummy",
+		  "size": [
+			64,
+			32
+		  ],
+		  "path": "assets/extracted/roles/kunio/tummy.png"
+		},
+		{
+		  "name": "tummy-hit",
+		  "size": [
+			65,
+			34
+		  ],
+		  "path": "assets/extracted/roles/kunio/tummy-hit.png"
+		},
+		{
+		  "name": "tummy-hit-fly",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/kunio/tummy-hit-fly.png"
+		},
+		{
+		  "name": "lying",
+		  "size": [
+			64,
+			32
+		  ],
+		  "path": "assets/extracted/roles/kunio/lying.png"
+		},
+		{
+		  "name": "lying-hit",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/kunio/lying-hit.png"
+		},
+		{
+		  "name": "half-lying",
+		  "size": [
+			46,
+			42
+		  ],
+		  "path": "assets/extracted/roles/kunio/half-lying.png"
+		},
+		{
+		  "name": "pull",
+		  "size": [
+			54,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/pull.png"
+		},
+		{
+		  "name": "push",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/push.png"
+		},
+		{
+		  "name": "rest-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/kunio/rest-01.png"
+		},
+		{
+		  "name": "rest-02",
+		  "size": [
+			44,
+			54
+		  ],
+		  "path": "assets/extracted/roles/kunio/rest-02.png"
+		},
+		{
+		  "name": "roll-01",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-01.png"
+		},
+		{
+		  "name": "roll-02",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-02.png"
+		},
+		{
+		  "name": "roll-03",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-03.png"
+		},
+		{
+		  "name": "roll-04",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-04.png"
+		},
+		{
+		  "name": "roll-05",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-05.png"
+		},
+		{
+		  "name": "roll-06",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-06.png"
+		},
+		{
+		  "name": "roll-07",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-07.png"
+		},
+		{
+		  "name": "roll-08",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/kunio/roll-08.png"
+		},
+		{
+		  "name": "run-01",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/run-01.png"
+		},
+		{
+		  "name": "run-02",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/kunio/run-02.png"
+		},
+		{
+		  "name": "run-03",
+		  "size": [
+			40,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/run-03.png"
+		},
+		{
+		  "name": "run-04",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/run-04.png"
+		},
+		{
+		  "name": "run-05",
+		  "size": [
+			40,
+			60
+		  ],
+		  "path": "assets/extracted/roles/kunio/run-05.png"
+		},
+		{
+		  "name": "run-06",
+		  "size": [
+			40,
+			62
+		  ],
+		  "path": "assets/extracted/roles/kunio/run-06.png"
+		},
+		{
+		  "name": "walk-01",
+		  "size": [
+			34,
+			64
+		  ],
+		  "path": "assets/extracted/roles/kunio/walk-01.png"
+		},
+		{
+		  "name": "walk-03",
+		  "size": [
+			34,
+			64
+		  ],
+		  "path": "assets/extracted/roles/kunio/walk-03.png"
+		},
+		{
+		  "name": "weak-walk",
+		  "size": [
+			44,
+			52
+		  ],
+		  "path": "assets/extracted/roles/kunio/weak-walk.png"
+		},
+		{
+		  "name": "ride",
+		  "size": [
+			36,
+			48
+		  ],
+		  "path": "assets/extracted/roles/kunio/ride.png"
+		},
+		{
+		  "name": "ride-attack-01",
+		  "size": [
+			34,
+			48
+		  ],
+		  "path": "assets/extracted/roles/kunio/ride-attack-01.png"
+		},
+		{
+		  "name": "ride-attack-02",
+		  "size": [
+			38,
+			48
+		  ],
+		  "path": "assets/extracted/roles/kunio/ride-attack-02.png"
+		},
+		{
+		  "name": "be-push",
+		  "size": [
+			49,
+			52
+		  ],
+		  "path": "assets/extracted/roles/kunio/be-push.png"
+		},
+		{
+		  "name": "hug-front-put-01",
+		  "size": [
+			38,
+			56
+		  ],
+		  "path": "assets/extracted/roles/kunio/hug-front-put-01.png"
+		},
+		{
+		  "name": "hug-front-put-02",
+		  "size": [
+			38,
+			58
+		  ],
+		  "path": "assets/extracted/roles/kunio/hug-front-put-02.png"
+		},
+		{
+		  "name": "hug-front-put-03",
+		  "size": [
+			48,
+			44
+		  ],
+		  "path": "assets/extracted/roles/kunio/hug-front-put-03.png"
+		},
+		{
+		  "name": "hug-front-put-04",
+		  "size": [
+			58,
+			32
+		  ],
+		  "path": "assets/extracted/roles/kunio/hug-front-put-04.png"
+		},
+		{
+		  "name": "half-stance",
+		  "size": [
+			46,
+			42
+		  ],
+		  "path": "assets/extracted/roles/kunio/half-stance.png"
+		},
+		{
+		  "name": "sit",
+		  "size": [
+			54,
+			47
+		  ],
+		  "path": "assets/extracted/roles/kunio/sit.png"
+		}
+	  ]
+	},
+	"riki": {
+	  "class_name": "graphics::action::riki",
+	  "items": [
+		{
+		  "name": "start-01",
+		  "size": [
+			44,
+			62
+		  ],
+		  "path": "assets/extracted/roles/riki/start-01.png"
+		},
+		{
+		  "name": "start-02",
+		  "size": [
+			42,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/start-02.png"
+		},
+		{
+		  "name": "A-attack-01",
+		  "size": [
+			64,
+			62
+		  ],
+		  "path": "assets/extracted/roles/riki/A-attack-01.png"
+		},
+		{
+		  "name": "A-attack-02",
+		  "size": [
+			64,
+			62
+		  ],
+		  "path": "assets/extracted/roles/riki/A-attack-02.png"
+		},
+		{
+		  "name": "A-sprint-attack-01",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/riki/A-sprint-attack-01.png"
+		},
+		{
+		  "name": "A-sprint-attack-02",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/riki/A-sprint-attack-02.png"
+		},
+		{
+		  "name": "B-attack-01",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/B-attack-01.png"
+		},
+		{
+		  "name": "B-attack-02",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/B-attack-02.png"
+		},
+		{
+		  "name": "B-sprint-attack-01",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/B-sprint-attack-01.png"
+		},
+		{
+		  "name": "B-sprint-attack-02",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/B-sprint-attack-02.png"
+		},
+		{
+		  "name": "back-be-catch",
+		  "size": [
+			40,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/back-be-catch.png"
+		},
+		{
+		  "name": "catch",
+		  "size": [
+			70,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/catch.png"
+		},
+		{
+		  "name": "defense",
+		  "size": [
+			44,
+			51
+		  ],
+		  "path": "assets/extracted/roles/riki/defense.png"
+		},
+		{
+		  "name": "elbow-01",
+		  "size": [
+			70,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/elbow-01.png"
+		},
+		{
+		  "name": "elbow-02",
+		  "size": [
+			70,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/elbow-02.png"
+		},
+		{
+		  "name": "elbow-03",
+		  "size": [
+			70,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/elbow-03.png"
+		},
+		{
+		  "name": "elbow-04",
+		  "size": [
+			70,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/elbow-04.png"
+		},
+		{
+		  "name": "fall",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/fall.png"
+		},
+		{
+		  "name": "final-blow-01",
+		  "size": [
+			44,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/final-blow-01.png"
+		},
+		{
+		  "name": "final-blow-02",
+		  "size": [
+			44,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/final-blow-02.png"
+		},
+		{
+		  "name": "final-blow-03",
+		  "size": [
+			44,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/final-blow-03.png"
+		},
+		{
+		  "name": "hit-fly",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/hit-fly.png"
+		},
+		{
+		  "name": "hit",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/riki/hit.png"
+		},
+		{
+		  "name": "jump-elbow",
+		  "size": [
+			62,
+			48
+		  ],
+		  "path": "assets/extracted/roles/riki/jump-elbow.png"
+		},
+		{
+		  "name": "jump-stomp",
+		  "size": [
+			32,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/jump-stomp.png"
+		},
+		{
+		  "name": "jump",
+		  "size": [
+			32,
+			54
+		  ],
+		  "path": "assets/extracted/roles/riki/jump.png"
+		},
+		{
+		  "name": "lift-fall",
+		  "size": [
+			42,
+			59
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-fall.png"
+		},
+		{
+		  "name": "lift-jump",
+		  "size": [
+			42,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-jump.png"
+		},
+		{
+		  "name": "lift-run-01",
+		  "size": [
+			42,
+			48
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-run-01.png"
+		},
+		{
+		  "name": "lift-run-02",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-run-02.png"
+		},
+		{
+		  "name": "lift-walk-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-walk-01.png"
+		},
+		{
+		  "name": "lift-walk-02",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-walk-02.png"
+		},
+		{
+		  "name": "lift-walk-03",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-walk-03.png"
+		},
+		{
+		  "name": "lift-walk-04",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/lift-walk-04.png"
+		},
+		{
+		  "name": "lift",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/lift.png"
+		},
+		{
+		  "name": "lying-hit",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/riki/lying-hit.png"
+		},
+		{
+		  "name": "lying",
+		  "size": [
+			64,
+			32
+		  ],
+		  "path": "assets/extracted/roles/riki/lying.png"
+		},
+		{
+		  "name": "half-lying",
+		  "size": [
+			46,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/half-lying.png"
+		},
+		{
+		  "name": "pull",
+		  "size": [
+			54,
+			58
+		  ],
+		  "path": "assets/extracted/roles/riki/pull.png"
+		},
+		{
+		  "name": "push",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/riki/push.png"
+		},
+		{
+		  "name": "ready-01",
+		  "size": [
+			44,
+			62
+		  ],
+		  "path": "assets/extracted/roles/riki/ready-01.png"
+		},
+		{
+		  "name": "rest-01",
+		  "size": [
+			44,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/rest-01.png"
+		},
+		{
+		  "name": "rest-02",
+		  "size": [
+			44,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/rest-02.png"
+		},
+		{
+		  "name": "roll-01",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-01.png"
+		},
+		{
+		  "name": "roll-02",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-02.png"
+		},
+		{
+		  "name": "roll-03",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-03.png"
+		},
+		{
+		  "name": "roll-04",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-04.png"
+		},
+		{
+		  "name": "roll-05",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-05.png"
+		},
+		{
+		  "name": "roll-06",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-06.png"
+		},
+		{
+		  "name": "roll-07",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-07.png"
+		},
+		{
+		  "name": "roll-08",
+		  "size": [
+			44,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/roll-08.png"
+		},
+		{
+		  "name": "run-01",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/run-01.png"
+		},
+		{
+		  "name": "run-02",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/run-02.png"
+		},
+		{
+		  "name": "run-03",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/run-03.png"
+		},
+		{
+		  "name": "run-04",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/run-04.png"
+		},
+		{
+		  "name": "run-05",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/run-05.png"
+		},
+		{
+		  "name": "run-06",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/riki/run-06.png"
+		},
+		{
+		  "name": "squat",
+		  "size": [
+			42,
+			48
+		  ],
+		  "path": "assets/extracted/roles/riki/squat.png"
+		},
+		{
+		  "name": "stance-01",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/stance-01.png"
+		},
+		{
+		  "name": "tummy-hit",
+		  "size": [
+			64,
+			34
+		  ],
+		  "path": "assets/extracted/roles/riki/tummy-hit.png"
+		},
+		{
+		  "name": "tummy-hit-fly",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/riki/tummy-hit-fly.png"
+		},
+		{
+		  "name": "tummy",
+		  "size": [
+			64,
+			32
+		  ],
+		  "path": "assets/extracted/roles/riki/tummy.png"
+		},
+		{
+		  "name": "walk-01",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/walk-01.png"
+		},
+		{
+		  "name": "walk-02",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/walk-02.png"
+		},
+		{
+		  "name": "walk-03",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/walk-03.png"
+		},
+		{
+		  "name": "walk-04",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/riki/walk-04.png"
+		},
+		{
+		  "name": "weak-walk-01",
+		  "size": [
+			44,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/weak-walk-01.png"
+		},
+		{
+		  "name": "weak-walk-02",
+		  "size": [
+			44,
+			56
+		  ],
+		  "path": "assets/extracted/roles/riki/weak-walk-02.png"
+		},
+		{
+		  "name": "ride",
+		  "size": [
+			40,
+			48
+		  ],
+		  "path": "assets/extracted/roles/riki/ride.png"
+		},
+		{
+		  "name": "ride-attack-01",
+		  "size": [
+			40,
+			48
+		  ],
+		  "path": "assets/extracted/roles/riki/ride-attack-01.png"
+		},
+		{
+		  "name": "ride-attack-02",
+		  "size": [
+			40,
+			48
+		  ],
+		  "path": "assets/extracted/roles/riki/ride-attack-02.png"
+		},
+		{
+		  "name": "be-push",
+		  "size": [
+			50,
+			52
+		  ],
+		  "path": "assets/extracted/roles/riki/be-push.png"
+		},
+		{
+		  "name": "defense++",
+		  "size": [
+			40,
+			35
+		  ],
+		  "path": "assets/extracted/roles/riki/defense++.png"
+		},
+		{
+		  "name": "half-stance",
+		  "size": [
+			46,
+			44
+		  ],
+		  "path": "assets/extracted/roles/riki/half-stance.png"
+		},
+		{
+		  "name": "sit",
+		  "size": [
+			56,
+			47
+		  ],
+		  "path": "assets/extracted/roles/riki/sit.png"
+		}
+	  ]
+	},
+	"mike": {
+	  "class_name": "graphics::action::mike",
+	  "items": [
+		{
+		  "name": "start-01",
+		  "size": [
+			42,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/start-01.png"
+		},
+		{
+		  "name": "start-02",
+		  "size": [
+			46,
+			60
+		  ],
+		  "path": "assets/extracted/roles/mike/start-02.png"
+		},
+		{
+		  "name": "ready",
+		  "size": [
+			42,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/ready.png"
+		},
+		{
+		  "name": "stance",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/mike/stance.png"
+		},
+		{
+		  "name": "A-attack-01",
+		  "size": [
+			48,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/A-attack-01.png"
+		},
+		{
+		  "name": "A-attack-02",
+		  "size": [
+			60,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/A-attack-02.png"
+		},
+		{
+		  "name": "A-sprint-attack-01",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/A-sprint-attack-01.png"
+		},
+		{
+		  "name": "A-sprint-attack-02",
+		  "size": [
+			52,
+			60
+		  ],
+		  "path": "assets/extracted/roles/mike/A-sprint-attack-02.png"
+		},
+		{
+		  "name": "B-attack-01",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/B-attack-01.png"
+		},
+		{
+		  "name": "B-attack-02",
+		  "size": [
+			64,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/B-attack-02.png"
+		},
+		{
+		  "name": "B-sprint-attack-01",
+		  "size": [
+			50,
+			46
+		  ],
+		  "path": "assets/extracted/roles/mike/B-sprint-attack-01.png"
+		},
+		{
+		  "name": "B-sprint-attack-02",
+		  "size": [
+			60,
+			52
+		  ],
+		  "path": "assets/extracted/roles/mike/B-sprint-attack-02.png"
+		},
+		{
+		  "name": "back-be-catch",
+		  "size": [
+			36,
+			56
+		  ],
+		  "path": "assets/extracted/roles/mike/back-be-catch.png"
+		},
+		{
+		  "name": "kick",
+		  "size": [
+			60,
+			59
+		  ],
+		  "path": "assets/extracted/roles/mike/kick.png"
+		},
+		{
+		  "name": "catch",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/catch.png"
+		},
+		{
+		  "name": "defense",
+		  "size": [
+			44,
+			54
+		  ],
+		  "path": "assets/extracted/roles/mike/defense.png"
+		},
+		{
+		  "name": "defense++",
+		  "size": [
+			40,
+			34
+		  ],
+		  "path": "assets/extracted/roles/mike/defense++.png"
+		},
+		{
+		  "name": "fall",
+		  "size": [
+			34,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/fall.png"
+		},
+		{
+		  "name": "final-blow-01",
+		  "size": [
+			58,
+			64
+		  ],
+		  "path": "assets/extracted/roles/mike/final-blow-01.png"
+		},
+		{
+		  "name": "final-blow-02",
+		  "size": [
+			52,
+			54
+		  ],
+		  "path": "assets/extracted/roles/mike/final-blow-02.png"
+		},
+		{
+		  "name": "final-blow-03",
+		  "size": [
+			40,
+			60
+		  ],
+		  "path": "assets/extracted/roles/mike/final-blow-03.png"
+		},
+		{
+		  "name": "final-blow-04",
+		  "size": [
+			56,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/final-blow-04.png"
+		},
+		{
+		  "name": "final-blow-05",
+		  "size": [
+			48,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/final-blow-05.png"
+		},
+		{
+		  "name": "hit",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/hit.png"
+		},
+		{
+		  "name": "hit-fly",
+		  "size": [
+			50,
+			64
+		  ],
+		  "path": "assets/extracted/roles/mike/hit-fly.png"
+		},
+		{
+		  "name": "hit-fly-fall",
+		  "size": [
+			50,
+			64
+		  ],
+		  "path": "assets/extracted/roles/mike/hit-fly-fall.png"
+		},
+		{
+		  "name": "jump-elbow",
+		  "size": [
+			62,
+			48
+		  ],
+		  "path": "assets/extracted/roles/mike/jump-elbow.png"
+		},
+		{
+		  "name": "squat",
+		  "size": [
+			44,
+			48
+		  ],
+		  "path": "assets/extracted/roles/mike/squat.png"
+		},
+		{
+		  "name": "jump",
+		  "size": [
+			32,
+			54
+		  ],
+		  "path": "assets/extracted/roles/mike/jump.png"
+		},
+		{
+		  "name": "lift-fall",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/lift-fall.png"
+		},
+		{
+		  "name": "lift-jump",
+		  "size": [
+			42,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/lift-jump.png"
+		},
+		{
+		  "name": "lift-run",
+		  "size": [
+			42,
+			48
+		  ],
+		  "path": "assets/extracted/roles/mike/lift-run.png"
+		},
+		{
+		  "name": "lift-walk-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/mike/lift-walk-01.png"
+		},
+		{
+		  "name": "lift-walk-02",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/mike/lift-walk-02.png"
+		},
+		{
+		  "name": "lift",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/mike/lift.png"
+		},
+		{
+		  "name": "tummy",
+		  "size": [
+			66,
+			34
+		  ],
+		  "path": "assets/extracted/roles/mike/tummy.png"
+		},
+		{
+		  "name": "tummy-hit",
+		  "size": [
+			64,
+			34
+		  ],
+		  "path": "assets/extracted/roles/mike/tummy-hit.png"
+		},
+		{
+		  "name": "tummy-hit-fly",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/mike/tummy-hit-fly.png"
+		},
+		{
+		  "name": "lying",
+		  "size": [
+			64,
+			32
+		  ],
+		  "path": "assets/extracted/roles/mike/lying.png"
+		},
+		{
+		  "name": "lying-hit",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/mike/lying-hit.png"
+		},
+		{
+		  "name": "half-lying",
+		  "size": [
+			48,
+			42
+		  ],
+		  "path": "assets/extracted/roles/mike/half-lying.png"
+		},
+		{
+		  "name": "pull",
+		  "size": [
+			54,
+			60
+		  ],
+		  "path": "assets/extracted/roles/mike/pull.png"
+		},
+		{
+		  "name": "push",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/push.png"
+		},
+		{
+		  "name": "rest-01",
+		  "size": [
+			42,
+			55
+		  ],
+		  "path": "assets/extracted/roles/mike/rest-01.png"
+		},
+		{
+		  "name": "rest-02",
+		  "size": [
+			44,
+			54
+		  ],
+		  "path": "assets/extracted/roles/mike/rest-02.png"
+		},
+		{
+		  "name": "roll-01",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-01.png"
+		},
+		{
+		  "name": "roll-02",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-02.png"
+		},
+		{
+		  "name": "roll-03",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-03.png"
+		},
+		{
+		  "name": "roll-04",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-04.png"
+		},
+		{
+		  "name": "roll-05",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-05.png"
+		},
+		{
+		  "name": "roll-06",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-06.png"
+		},
+		{
+		  "name": "roll-07",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-07.png"
+		},
+		{
+		  "name": "roll-08",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/roll-08.png"
+		},
+		{
+		  "name": "run-01",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/run-01.png"
+		},
+		{
+		  "name": "run-02",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/mike/run-02.png"
+		},
+		{
+		  "name": "run-03",
+		  "size": [
+			40,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/run-03.png"
+		},
+		{
+		  "name": "run-04",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/run-04.png"
+		},
+		{
+		  "name": "run-05",
+		  "size": [
+			40,
+			60
+		  ],
+		  "path": "assets/extracted/roles/mike/run-05.png"
+		},
+		{
+		  "name": "run-06",
+		  "size": [
+			40,
+			62
+		  ],
+		  "path": "assets/extracted/roles/mike/run-06.png"
+		},
+		{
+		  "name": "walk-01",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/mike/walk-01.png"
+		},
+		{
+		  "name": "walk-02",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/mike/walk-02.png"
+		},
+		{
+		  "name": "weak-walk",
+		  "size": [
+			44,
+			52
+		  ],
+		  "path": "assets/extracted/roles/mike/weak-walk.png"
+		},
+		{
+		  "name": "ride",
+		  "size": [
+			32,
+			48
+		  ],
+		  "path": "assets/extracted/roles/mike/ride.png"
+		},
+		{
+		  "name": "ride-attack-01",
+		  "size": [
+			29,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/ride-attack-01.png"
+		},
+		{
+		  "name": "ride-attack-02",
+		  "size": [
+			38,
+			50
+		  ],
+		  "path": "assets/extracted/roles/mike/ride-attack-02.png"
+		},
+		{
+		  "name": "be-push",
+		  "size": [
+			51,
+			52
+		  ],
+		  "path": "assets/extracted/roles/mike/be-push.png"
+		},
+		{
+		  "name": "half-stance",
+		  "size": [
+			48,
+			42
+		  ],
+		  "path": "assets/extracted/roles/mike/half-stance.png"
+		},
+		{
+		  "name": "hug-jump-01",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/hug-jump-01.png"
+		},
+		{
+		  "name": "hug-jump-02",
+		  "size": [
+			36,
+			56
+		  ],
+		  "path": "assets/extracted/roles/mike/hug-jump-02.png"
+		},
+		{
+		  "name": "hug-jump-03",
+		  "size": [
+			38,
+			58
+		  ],
+		  "path": "assets/extracted/roles/mike/hug-jump-03.png"
+		},
+		{
+		  "name": "hug-jump-04",
+		  "size": [
+			34,
+			48
+		  ],
+		  "path": "assets/extracted/roles/mike/hug-jump-04.png"
+		},
+		{
+		  "name": "sit",
+		  "size": [
+			56,
+			48
+		  ],
+		  "path": "assets/extracted/roles/mike/sit.png"
+		}
+	  ]
+	},
+	"ben": {
+	  "class_name": "graphics::action::ben",
+	  "items": [
+		{
+		  "name": "start-01",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/start-01.png"
+		},
+		{
+		  "name": "start-02",
+		  "size": [
+			46,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/start-02.png"
+		},
+		{
+		  "name": "ready",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/ready.png"
+		},
+		{
+		  "name": "stance",
+		  "size": [
+			33,
+			64
+		  ],
+		  "path": "assets/extracted/roles/ben/stance.png"
+		},
+		{
+		  "name": "A-attack-01",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/A-attack-01.png"
+		},
+		{
+		  "name": "A-attack-02",
+		  "size": [
+			60,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/A-attack-02.png"
+		},
+		{
+		  "name": "B-attack-01",
+		  "size": [
+			44,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/B-attack-01.png"
+		},
+		{
+		  "name": "B-attack-02",
+		  "size": [
+			62,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/B-attack-02.png"
+		},
+		{
+		  "name": "B-attack-03",
+		  "size": [
+			42,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/B-attack-03.png"
+		},
+		{
+		  "name": "back-be-catch-01",
+		  "size": [
+			36,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/back-be-catch-01.png"
+		},
+		{
+		  "name": "back-be-catch-02",
+		  "size": [
+			35,
+			52
+		  ],
+		  "path": "assets/extracted/roles/ben/back-be-catch-02.png"
+		},
+		{
+		  "name": "kick",
+		  "size": [
+			62,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/kick.png"
+		},
+		{
+		  "name": "catch",
+		  "size": [
+			40,
+			59
+		  ],
+		  "path": "assets/extracted/roles/ben/catch.png"
+		},
+		{
+		  "name": "defense",
+		  "size": [
+			44,
+			52
+		  ],
+		  "path": "assets/extracted/roles/ben/defense.png"
+		},
+		{
+		  "name": "defense++",
+		  "size": [
+			40,
+			34
+		  ],
+		  "path": "assets/extracted/roles/ben/defense++.png"
+		},
+		{
+		  "name": "final-blow-01",
+		  "size": [
+			46,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/final-blow-01.png"
+		},
+		{
+		  "name": "final-blow-02",
+		  "size": [
+			36,
+			58
+		  ],
+		  "path": "assets/extracted/roles/ben/final-blow-02.png"
+		},
+		{
+		  "name": "final-blow-03",
+		  "size": [
+			52,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/final-blow-03.png"
+		},
+		{
+		  "name": "final-blow-04",
+		  "size": [
+			58,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/final-blow-04.png"
+		},
+		{
+		  "name": "final-blow-05",
+		  "size": [
+			44,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/final-blow-05.png"
+		},
+		{
+		  "name": "final-blow-06",
+		  "size": [
+			42,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/final-blow-06.png"
+		},
+		{
+		  "name": "hit",
+		  "size": [
+			48,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/hit.png"
+		},
+		{
+		  "name": "hit-fly",
+		  "size": [
+			50,
+			64
+		  ],
+		  "path": "assets/extracted/roles/ben/hit-fly.png"
+		},
+		{
+		  "name": "hit-fly-fall",
+		  "size": [
+			50,
+			64
+		  ],
+		  "path": "assets/extracted/roles/ben/hit-fly-fall.png"
+		},
+		{
+		  "name": "jump-elbow",
+		  "size": [
+			62,
+			48
+		  ],
+		  "path": "assets/extracted/roles/ben/jump-elbow.png"
+		},
+		{
+		  "name": "squat",
+		  "size": [
+			40,
+			48
+		  ],
+		  "path": "assets/extracted/roles/ben/squat.png"
+		},
+		{
+		  "name": "jump",
+		  "size": [
+			34,
+			54
+		  ],
+		  "path": "assets/extracted/roles/ben/jump.png"
+		},
+		{
+		  "name": "fall",
+		  "size": [
+			35,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/fall.png"
+		},
+		{
+		  "name": "lift-fall",
+		  "size": [
+			43,
+			58
+		  ],
+		  "path": "assets/extracted/roles/ben/lift-fall.png"
+		},
+		{
+		  "name": "lift-jump",
+		  "size": [
+			43,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/lift-jump.png"
+		},
+		{
+		  "name": "lift-run",
+		  "size": [
+			43,
+			49
+		  ],
+		  "path": "assets/extracted/roles/ben/lift-run.png"
+		},
+		{
+		  "name": "lift-walk-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/lift-walk-01.png"
+		},
+		{
+		  "name": "lift-walk-02",
+		  "size": [
+			43,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/lift-walk-02.png"
+		},
+		{
+		  "name": "lift",
+		  "size": [
+			43,
+			55
+		  ],
+		  "path": "assets/extracted/roles/ben/lift.png"
+		},
+		{
+		  "name": "tummy",
+		  "size": [
+			65,
+			33
+		  ],
+		  "path": "assets/extracted/roles/ben/tummy.png"
+		},
+		{
+		  "name": "tummy-hit",
+		  "size": [
+			65,
+			35
+		  ],
+		  "path": "assets/extracted/roles/ben/tummy-hit.png"
+		},
+		{
+		  "name": "tummy-hit-fly",
+		  "size": [
+			61,
+			40
+		  ],
+		  "path": "assets/extracted/roles/ben/tummy-hit-fly.png"
+		},
+		{
+		  "name": "lying",
+		  "size": [
+			66,
+			32
+		  ],
+		  "path": "assets/extracted/roles/ben/lying.png"
+		},
+		{
+		  "name": "lying-hit",
+		  "size": [
+			61,
+			40
+		  ],
+		  "path": "assets/extracted/roles/ben/lying-hit.png"
+		},
+		{
+		  "name": "half-lying",
+		  "size": [
+			48,
+			44
+		  ],
+		  "path": "assets/extracted/roles/ben/half-lying.png"
+		},
+		{
+		  "name": "half-stance",
+		  "size": [
+			48,
+			44
+		  ],
+		  "path": "assets/extracted/roles/ben/half-stance.png"
+		},
+		{
+		  "name": "pull",
+		  "size": [
+			55,
+			58
+		  ],
+		  "path": "assets/extracted/roles/ben/pull.png"
+		},
+		{
+		  "name": "push",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/ben/push.png"
+		},
+		{
+		  "name": "rest-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/rest-01.png"
+		},
+		{
+		  "name": "rest-02",
+		  "size": [
+			44,
+			54
+		  ],
+		  "path": "assets/extracted/roles/ben/rest-02.png"
+		},
+		{
+		  "name": "roll-01",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-01.png"
+		},
+		{
+		  "name": "roll-02",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-02.png"
+		},
+		{
+		  "name": "roll-03",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-03.png"
+		},
+		{
+		  "name": "roll-04",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-04.png"
+		},
+		{
+		  "name": "roll-05",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-05.png"
+		},
+		{
+		  "name": "roll-06",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-06.png"
+		},
+		{
+		  "name": "roll-07",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-07.png"
+		},
+		{
+		  "name": "roll-08",
+		  "size": [
+			50,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/roll-08.png"
+		},
+		{
+		  "name": "run-01",
+		  "size": [
+			46,
+			58
+		  ],
+		  "path": "assets/extracted/roles/ben/run-01.png"
+		},
+		{
+		  "name": "run-02",
+		  "size": [
+			49,
+			60
+		  ],
+		  "path": "assets/extracted/roles/ben/run-02.png"
+		},
+		{
+		  "name": "run-03",
+		  "size": [
+			42,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/run-03.png"
+		},
+		{
+		  "name": "run-04",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/ben/run-04.png"
+		},
+		{
+		  "name": "run-05",
+		  "size": [
+			42,
+			59
+		  ],
+		  "path": "assets/extracted/roles/ben/run-05.png"
+		},
+		{
+		  "name": "run-06",
+		  "size": [
+			40,
+			62
+		  ],
+		  "path": "assets/extracted/roles/ben/run-06.png"
+		},
+		{
+		  "name": "walk-01",
+		  "size": [
+			33,
+			64
+		  ],
+		  "path": "assets/extracted/roles/ben/walk-01.png"
+		},
+		{
+		  "name": "walk-02",
+		  "size": [
+			33,
+			64
+		  ],
+		  "path": "assets/extracted/roles/ben/walk-02.png"
+		},
+		{
+		  "name": "weak-walk",
+		  "size": [
+			45,
+			52
+		  ],
+		  "path": "assets/extracted/roles/ben/weak-walk.png"
+		},
+		{
+		  "name": "ride",
+		  "size": [
+			32,
+			48
+		  ],
+		  "path": "assets/extracted/roles/ben/ride.png"
+		},
+		{
+		  "name": "ride-attack-01",
+		  "size": [
+			38,
+			48
+		  ],
+		  "path": "assets/extracted/roles/ben/ride-attack-01.png"
+		},
+		{
+		  "name": "ride-attack-02",
+		  "size": [
+			32,
+			49
+		  ],
+		  "path": "assets/extracted/roles/ben/ride-attack-02.png"
+		},
+		{
+		  "name": "be-push",
+		  "size": [
+			51,
+			52
+		  ],
+		  "path": "assets/extracted/roles/ben/be-push.png"
+		},
+		{
+		  "name": "sit",
+		  "size": [
+			56,
+			48
+		  ],
+		  "path": "assets/extracted/roles/ben/sit.png"
+		},
+		{
+		  "name": "back-judo-01",
+		  "size": [
+			38,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/back-judo-01.png"
+		},
+		{
+		  "name": "back-judo-02",
+		  "size": [
+			38,
+			58
+		  ],
+		  "path": "assets/extracted/roles/ben/back-judo-02.png"
+		},
+		{
+		  "name": "back-judo-03",
+		  "size": [
+			54,
+			48
+		  ],
+		  "path": "assets/extracted/roles/ben/back-judo-03.png"
+		},
+		{
+		  "name": "back-judo-04",
+		  "size": [
+			58,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/back-judo-04.png"
+		},
+		{
+		  "name": "back-judo-05",
+		  "size": [
+			54,
+			48
+		  ],
+		  "path": "assets/extracted/roles/ben/back-judo-05.png"
+		},
+		{
+		  "name": "judo-01",
+		  "size": [
+			50,
+			56
+		  ],
+		  "path": "assets/extracted/roles/ben/judo-01.png"
+		},
+		{
+		  "name": "judo-02",
+		  "size": [
+			45,
+			52
+		  ],
+		  "path": "assets/extracted/roles/ben/judo-02.png"
+		},
+		{
+		  "name": "judo-03",
+		  "size": [
+			56,
+			50
+		  ],
+		  "path": "assets/extracted/roles/ben/judo-03.png"
+		},
+		{
+		  "name": "judo-04",
+		  "size": [
+			56,
+			47
+		  ],
+		  "path": "assets/extracted/roles/ben/judo-04.png"
+		}
+	  ]
+	},
+	"toraji": {
+	  "class_name": "graphics::action::toraji",
+	  "items": [
+		{
+		  "name": "start-01",
+		  "size": [
+			48,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/start-01.png"
+		},
+		{
+		  "name": "start-02",
+		  "size": [
+			48,
+			60
+		  ],
+		  "path": "assets/extracted/roles/toraji/start-02.png"
+		},
+		{
+		  "name": "ready",
+		  "size": [
+			48,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/ready.png"
+		},
+		{
+		  "name": "stance",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/stance.png"
+		},
+		{
+		  "name": "half-lying",
+		  "size": [
+			46,
+			42
+		  ],
+		  "path": "assets/extracted/roles/toraji/half-lying.png"
+		},
+		{
+		  "name": "walk-01",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/walk-01.png"
+		},
+		{
+		  "name": "walk-02",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/walk-02.png"
+		},
+		{
+		  "name": "walk-03",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/walk-03.png"
+		},
+		{
+		  "name": "walk-04",
+		  "size": [
+			32,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/walk-04.png"
+		},
+		{
+		  "name": "run-01",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/run-01.png"
+		},
+		{
+		  "name": "run-02",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/run-02.png"
+		},
+		{
+		  "name": "run-03",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/run-03.png"
+		},
+		{
+		  "name": "run-04",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/run-04.png"
+		},
+		{
+		  "name": "run-05",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/run-05.png"
+		},
+		{
+		  "name": "run-06",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/run-06.png"
+		},
+		{
+		  "name": "A-attack-01",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-attack-01.png"
+		},
+		{
+		  "name": "A-attack-02",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-attack-02.png"
+		},
+		{
+		  "name": "B-attack-01",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/B-attack-01.png"
+		},
+		{
+		  "name": "B-attack-02",
+		  "size": [
+			50,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/B-attack-02.png"
+		},
+		{
+		  "name": "A-sprint-attack-01",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-sprint-attack-01.png"
+		},
+		{
+		  "name": "A-sprint-attack-02",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-sprint-attack-02.png"
+		},
+		{
+		  "name": "A-sprint-attack-03",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-sprint-attack-03.png"
+		},
+		{
+		  "name": "A-sprint-attack-04",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-sprint-attack-04.png"
+		},
+		{
+		  "name": "A-sprint-attack-05",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-sprint-attack-05.png"
+		},
+		{
+		  "name": "A-sprint-attack-06",
+		  "size": [
+			70,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/A-sprint-attack-06.png"
+		},
+		{
+		  "name": "jump",
+		  "size": [
+			32,
+			54
+		  ],
+		  "path": "assets/extracted/roles/toraji/jump.png"
+		},
+		{
+		  "name": "squat",
+		  "size": [
+			46,
+			48
+		  ],
+		  "path": "assets/extracted/roles/toraji/squat.png"
+		},
+		{
+		  "name": "defense",
+		  "size": [
+			44,
+			52
+		  ],
+		  "path": "assets/extracted/roles/toraji/defense.png"
+		},
+		{
+		  "name": "hit-fly-fall",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/hit-fly-fall.png"
+		},
+		{
+		  "name": "final-blow-01",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/final-blow-01.png"
+		},
+		{
+		  "name": "final-blow-02",
+		  "size": [
+			48,
+			68
+		  ],
+		  "path": "assets/extracted/roles/toraji/final-blow-02.png"
+		},
+		{
+		  "name": "hit-fly",
+		  "size": [
+			48,
+			64
+		  ],
+		  "path": "assets/extracted/roles/toraji/hit-fly.png"
+		},
+		{
+		  "name": "hit",
+		  "size": [
+			48,
+			62
+		  ],
+		  "path": "assets/extracted/roles/toraji/hit.png"
+		},
+		{
+		  "name": "lying-hit",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/toraji/lying-hit.png"
+		},
+		{
+		  "name": "lying",
+		  "size": [
+			64,
+			32
+		  ],
+		  "path": "assets/extracted/roles/toraji/lying.png"
+		},
+		{
+		  "name": "tummy",
+		  "size": [
+			64,
+			32
+		  ],
+		  "path": "assets/extracted/roles/toraji/tummy.png"
+		},
+		{
+		  "name": "tummy-hit",
+		  "size": [
+			64,
+			33
+		  ],
+		  "path": "assets/extracted/roles/toraji/tummy-hit.png"
+		},
+		{
+		  "name": "tummy-hit-fly",
+		  "size": [
+			60,
+			40
+		  ],
+		  "path": "assets/extracted/roles/toraji/tummy-hit-fly.png"
+		},
+		{
+		  "name": "stomp",
+		  "size": [
+			34,
+			56
+		  ],
+		  "path": "assets/extracted/roles/toraji/stomp.png"
+		},
+		{
+		  "name": "kick",
+		  "size": [
+			62,
+			60
+		  ],
+		  "path": "assets/extracted/roles/toraji/kick.png"
+		},
+		{
+		  "name": "roll-01",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-01.png"
+		},
+		{
+		  "name": "roll-02",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-02.png"
+		},
+		{
+		  "name": "roll-03",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-03.png"
+		},
+		{
+		  "name": "roll-04",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-04.png"
+		},
+		{
+		  "name": "roll-05",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-05.png"
+		},
+		{
+		  "name": "roll-06",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-06.png"
+		},
+		{
+		  "name": "roll-07",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-07.png"
+		},
+		{
+		  "name": "roll-08",
+		  "size": [
+			55,
+			55
+		  ],
+		  "path": "assets/extracted/roles/toraji/roll-08.png"
+		},
+		{
+		  "name": "spin-up-01",
+		  "size": [
+			32,
+			48
+		  ],
+		  "path": "assets/extracted/roles/toraji/spin-up-01.png"
+		},
+		{
+		  "name": "spin-up-02",
+		  "size": [
+			32,
+			48
+		  ],
+		  "path": "assets/extracted/roles/toraji/spin-up-02.png"
+		},
+		{
+		  "name": "spin-up-03",
+		  "size": [
+			32,
+			48
+		  ],
+		  "path": "assets/extracted/roles/toraji/spin-up-03.png"
+		},
+		{
+		  "name": "catch",
+		  "size": [
+			38,
+			58
+		  ],
+		  "path": "assets/extracted/roles/toraji/catch.png"
+		},
+		{
+		  "name": "B-sprint-attack",
+		  "size": [
+			44,
+			58
+		  ],
+		  "path": "assets/extracted/roles/toraji/B-sprint-attack.png"
+		},
+		{
+		  "name": "rest-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/toraji/rest-01.png"
+		},
+		{
+		  "name": "rest-02",
+		  "size": [
+			44,
+			54
+		  ],
+		  "path": "assets/extracted/roles/toraji/rest-02.png"
+		},
+		{
+		  "name": "push",
+		  "size": [
+			47,
+			59
+		  ],
+		  "path": "assets/extracted/roles/toraji/push.png"
+		},
+		{
+		  "name": "pull",
+		  "size": [
+			55,
+			59
+		  ],
+		  "path": "assets/extracted/roles/toraji/pull.png"
+		},
+		{
+		  "name": "back-be-catch",
+		  "size": [
+			36,
+			56
+		  ],
+		  "path": "assets/extracted/roles/toraji/back-be-catch.png"
+		},
+		{
+		  "name": "weak-walk",
+		  "size": [
+			44,
+			52
+		  ],
+		  "path": "assets/extracted/roles/toraji/weak-walk.png"
+		},
+		{
+		  "name": "fall",
+		  "size": [
+			34,
+			63
+		  ],
+		  "path": "assets/extracted/roles/toraji/fall.png"
+		},
+		{
+		  "name": "defense++",
+		  "size": [
+			40,
+			34
+		  ],
+		  "path": "assets/extracted/roles/toraji/defense++.png"
+		},
+		{
+		  "name": "ride",
+		  "size": [
+			32,
+			49
+		  ],
+		  "path": "assets/extracted/roles/toraji/ride.png"
+		},
+		{
+		  "name": "ride-attack-01",
+		  "size": [
+			34,
+			47
+		  ],
+		  "path": "assets/extracted/roles/toraji/ride-attack-01.png"
+		},
+		{
+		  "name": "ride-attack-02",
+		  "size": [
+			40,
+			48
+		  ],
+		  "path": "assets/extracted/roles/toraji/ride-attack-02.png"
+		},
+		{
+		  "name": "lift-fall",
+		  "size": [
+			42,
+			58
+		  ],
+		  "path": "assets/extracted/roles/toraji/lift-fall.png"
+		},
+		{
+		  "name": "lift",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/toraji/lift.png"
+		},
+		{
+		  "name": "lift-jump",
+		  "size": [
+			42,
+			50
+		  ],
+		  "path": "assets/extracted/roles/toraji/lift-jump.png"
+		},
+		{
+		  "name": "lift-run-01",
+		  "size": [
+			42,
+			48
+		  ],
+		  "path": "assets/extracted/roles/toraji/lift-run-01.png"
+		},
+		{
+		  "name": "lift-walk-01",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/toraji/lift-walk-01.png"
+		},
+		{
+		  "name": "lift-walk-02",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/toraji/lift-walk-02.png"
+		},
+		{
+		  "name": "lift-walk-03",
+		  "size": [
+			42,
+			56
+		  ],
+		  "path": "assets/extracted/roles/toraji/lift-walk-03.png"
+		},
+		{
+		  "name": "sit",
+		  "size": [
+			56,
+			49
+		  ],
+		  "path": "assets/extracted/roles/toraji/sit.png"
+		},
+		{
+		  "name": "jump-elbow",
+		  "size": [
+			62,
+			48
+		  ],
+		  "path": "assets/extracted/roles/toraji/jump-elbow.png"
+		},
+		{
+		  "name": "half-stance",
+		  "size": [
+			46,
+			42
+		  ],
+		  "path": "assets/extracted/roles/toraji/half-stance.png"
+		},
+		{
+		  "name": "be-push",
+		  "size": [
+			50,
+			52
+		  ],
+		  "path": "assets/extracted/roles/toraji/be-push.png"
+		}
+	  ]
+	}
+  }
+}

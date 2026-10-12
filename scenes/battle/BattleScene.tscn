@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://bnj7skudwfwfb"]
+
+[ext_resource type="Script" uid="uid://d1pnq5axql632" path="res://scripts/battle/battle_scene.gd" id="1_hn4p0"]
+[ext_resource type="PackedScene" path="res://scenes/ui/BattleHud.tscn" id="2_hud"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7ef2n"]
+bg_color = Color(0.0705882, 0.0705882, 0.105882, 0.866667)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.917647, 0.709804, 0.321569, 0.65)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hp_bar_bg"]
+bg_color = Color(0.203922, 0.25098, 0.321569, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.952941, 0.968627, 0.984314, 0.8)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hp_bar_fill"]
+bg_color = Color(0.34902, 0.764706, 0.415686, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_info_banner"]
+bg_color = Color(0.0352941, 0.0509804, 0.0901961, 0.86)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.964706, 0.811765, 0.341176, 0.95)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_help_banner"]
+bg_color = Color(0.0196078, 0.027451, 0.0588235, 0.84)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.25098, 0.721569, 0.988235, 0.9)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="BattleScene" type="Node2D" unique_id=1727988357]
+script = ExtResource("1_hn4p0")
+
+[node name="StageRoot" type="Node2D" parent="." unique_id=675869506]
+
+[node name="Background" type="Sprite2D" parent="StageRoot" unique_id=117737147]
+
+[node name="Fighters" type="Node2D" parent="StageRoot" unique_id=861968832]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=207712002]
+position = Vector2(400, 255)
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1586542478]
+
+[node name="BattleHud" parent="HUD" instance=ExtResource("2_hud")]
