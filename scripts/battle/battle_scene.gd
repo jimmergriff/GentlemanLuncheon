@@ -401,9 +401,12 @@ func _refresh_info_label() -> void:
 		battle_hud.show_result_banner(_format_result_banner(Localization.text(story_key)))
 		return
 	if not battle_finished:
-		battle_hud.set_center_text(
-			Localization.text("battle.mode.team") if battle_mode == "2v2" else Localization.text("battle.mode.ffa")
-		)
+		var mode_key: String = "battle.mode.ffa"
+		if _story:
+			mode_key = "battle.mode.story"
+		elif battle_mode == "2v2":
+			mode_key = "battle.mode.team"
+		battle_hud.set_center_text(Localization.text(mode_key))
 		return
 	if battle_mode == "2v2":
 		battle_hud.show_result_banner(_get_team_result_text())
