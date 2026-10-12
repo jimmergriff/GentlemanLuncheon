@@ -1,0 +1,4701 @@
+{
+ "role": "chadwick",
+ "actions": {
+  "start": {
+   "source_action": "ACTION_START",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "start-01",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "start-02",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "start-01",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "start-02",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "start-01",
+     "duration_ticks": 20,
+     "duration_sec": 0.4,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "walk": {
+   "source_action": "ACTION_WALK",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "walk-01",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      162
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "stance",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      162
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "walk-03",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      162
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "stance",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      162
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "stance": {
+   "source_action": "ACTION_STANCE",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "stance",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      162
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "ready": {
+   "source_action": "ACTION_READY",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "ready",
+     "duration_ticks": 50,
+     "duration_sec": 1.0,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      157
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "defense": {
+   "source_action": "ACTION_DEFENSE",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "defense",
+     "duration_ticks": 50,
+     "duration_sec": 1.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      129
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "solid_defense": {
+   "source_action": "ACTION_SOLID_DEFENSE",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "defense++",
+     "duration_ticks": 50,
+     "duration_sec": 1.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      89,
+      30,
+      81
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "run": {
+   "source_action": "ACTION_RUN",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "run-01",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      122,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "run-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      122,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "run-03",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      122,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "run-04",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      122,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "run-05",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      122,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "run-06",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      122,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "a_attack": {
+   "source_action": "ACTION_A_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 4,
+     "duration_sec": 0.08,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "aj_attack": {
+   "source_action": "ACTION_AJ_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    }
+   ]
+  },
+  "mach_a_attack": {
+   "source_action": "ACTION_MACH_A_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    }
+   ]
+  },
+  "jump_mach_a_attack": {
+   "source_action": "ACTION_JUMP_MACH_A_ATTACK",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -8,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -14,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -28,
+      -15,
+      0,
+      86,
+      30,
+      152
+     ],
+     "attack_box": [
+      30,
+      -15,
+      71,
+      81,
+      30,
+      51
+     ]
+    }
+   ]
+  },
+  "b_attack": {
+   "source_action": "ACTION_B_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "bj_attack": {
+   "source_action": "ACTION_BJ_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    }
+   ]
+  },
+  "mach_b_attack": {
+   "source_action": "ACTION_MACH_B_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "jump_mach_b_attack": {
+   "source_action": "ACTION_JUMP_MACH_B_ATTACK",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -28,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      66,
+      -15,
+      20,
+      89,
+      30,
+      63
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-attack-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      -23,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      15,
+      -15,
+      0,
+      71,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "as_attack": {
+   "source_action": "ACTION_AS_ATTACK",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-sprint-attack",
+     "duration_ticks": 50,
+     "duration_sec": 1.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -30,
+      -15,
+      0,
+      76,
+      30,
+      147
+     ],
+     "attack_box": [
+      -10,
+      -15,
+      25,
+      66,
+      30,
+      96
+     ]
+    }
+   ]
+  },
+  "bs_attack": {
+   "source_action": "ACTION_BS_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "B-sprint-attack",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -38,
+      -15,
+      0,
+      66,
+      30,
+      162
+     ],
+     "attack_box": [
+      0,
+      -15,
+      0,
+      61,
+      30,
+      91
+     ]
+    }
+   ]
+  },
+  "asj_attack": {
+   "source_action": "ACTION_ASJ_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "A-sprint-jump-attack",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      10,
+      162,
+      30,
+      76
+     ],
+     "attack_box": [
+      -81,
+      -15,
+      10,
+      162,
+      30,
+      51
+     ]
+    }
+   ]
+  },
+  "bsj_attack": {
+   "source_action": "ACTION_BSJ_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "kick",
+     "duration_ticks": -10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -33,
+      -15,
+      10,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      -33,
+      -15,
+      10,
+      137,
+      30,
+      61
+     ]
+    }
+   ]
+  },
+  "jump": {
+   "source_action": "ACTION_JUMP",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "jump",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      137
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "squat": {
+   "source_action": "ACTION_SQUAT",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "squat",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "kick": {
+   "source_action": "ACTION_KICK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "kick",
+     "duration_ticks": -10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -33,
+      -15,
+      10,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      -33,
+      -15,
+      10,
+      137,
+      30,
+      61
+     ]
+    }
+   ]
+  },
+  "roll_down": {
+   "source_action": "ACTION_ROLL_DOWN",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-03",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "roll_up": {
+   "source_action": "ACTION_ROLL_UP",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-07",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "f_roll": {
+   "source_action": "ACTION_F_ROLL",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-02",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-03",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-04",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-05",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-06",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-07",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-08",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "b_roll": {
+   "source_action": "ACTION_B_ROLL",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-08",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-07",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-06",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-05",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-04",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-03",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-02",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "spinhit": {
+   "source_action": "ACTION_SPINHIT",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-01",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-02",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-03",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-04",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-05",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-06",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-07",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "roll-08",
+     "duration_ticks": 2,
+     "duration_sec": 0.04,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ],
+     "attack_box": [
+      -43,
+      -15,
+      35,
+      86,
+      30,
+      86
+     ]
+    }
+   ]
+  },
+  "bombkick": {
+   "source_action": "ACTION_BOMBKICK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "run-04",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      -15,
+      0,
+      61,
+      30,
+      152
+     ],
+     "attack_box": [
+      -53,
+      -15,
+      0,
+      106,
+      30,
+      152
+     ]
+    }
+   ]
+  },
+  "mach_stomp": {
+   "source_action": "ACTION_MACH_STOMP",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "defense",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      129
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "fall",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      152
+     ],
+     "attack_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      129
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "defense",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      129
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "fall",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": true,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      152
+     ],
+     "attack_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      129
+     ]
+    }
+   ]
+  },
+  "final_blow": {
+   "source_action": "ACTION_FINAL_BLOW",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "final-blow-01",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -26,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -20,
+      -15,
+      0,
+      91,
+      30,
+      147
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "final-blow-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      -26,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -20,
+      -15,
+      0,
+      91,
+      30,
+      147
+     ],
+     "attack_box": [
+      20,
+      -15,
+      0,
+      132,
+      30,
+      76
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "final-blow-03",
+     "duration_ticks": 20,
+     "duration_sec": 0.4,
+     "offset": [
+      -26,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -20,
+      -15,
+      0,
+      91,
+      30,
+      147
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "final-blow-04",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -26,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -20,
+      -15,
+      0,
+      91,
+      30,
+      147
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "catch": {
+   "source_action": "ACTION_CATCH",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "catch",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -48,
+      -15,
+      0,
+      96,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "catch_skill_fb": {
+   "source_action": "ACTION_CATCH_SKILL_FB",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "pull",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      12,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      33,
+      -15,
+      0,
+      137,
+      30,
+      147
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "push",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -12,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "catch_skill_bb": {
+   "source_action": "ACTION_CATCH_SKILL_BB",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "rest-01",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "push",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -12,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "rest": {
+   "source_action": "ACTION_REST",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "rest-01",
+     "duration_ticks": 25,
+     "duration_sec": 0.5,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "rest-02",
+     "duration_ticks": 25,
+     "duration_sec": 0.5,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "be_catch": {
+   "source_action": "ACTION_BE_CATCH",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "rest-01",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "back_be_catch": {
+   "source_action": "ACTION_BACK_BE_CATCH",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "back-be-catch",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "be_push": {
+   "source_action": "ACTION_BE_PUSH",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "be-push",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "catch_skill_fa": {
+   "source_action": "ACTION_CATCH_SKILL_FA",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-01",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -35,
+      -15,
+      0,
+      71,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-02",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -35,
+      -15,
+      0,
+      71,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-03",
+     "duration_ticks": 8,
+     "duration_sec": 0.16,
+     "offset": [
+      15,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      116,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-03",
+     "duration_ticks": 8,
+     "duration_sec": 0.16,
+     "offset": [
+      15,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      116,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-02",
+     "duration_ticks": 6,
+     "duration_sec": 0.12,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -35,
+      -15,
+      0,
+      71,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-01",
+     "duration_ticks": 15,
+     "duration_sec": 0.3,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -35,
+      -15,
+      0,
+      71,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-02",
+     "duration_ticks": 6,
+     "duration_sec": 0.12,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -35,
+      -15,
+      0,
+      71,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "catch_skill_ba": {
+   "source_action": "ACTION_CATCH_SKILL_BA",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-01",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -35,
+      -15,
+      0,
+      71,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-02",
+     "duration_ticks": 3,
+     "duration_sec": 0.06,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -35,
+      -15,
+      0,
+      71,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-03",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      15,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      116,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-04",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      20,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      116,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-04",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      20,
+      -3
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      116,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hug-front-put-04",
+     "duration_ticks": 20,
+     "duration_sec": 0.4,
+     "offset": [
+      20,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      116,
+      30,
+      86
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "squat",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "weak_run": {
+   "source_action": "ACTION_WEAK_RUN",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "weak-walk",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -6,
+      2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      101,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "rest-01",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -56,
+      -15,
+      0,
+      111,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "throw": {
+   "source_action": "ACTION_THROW",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "push",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      -11,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -30,
+      -15,
+      0,
+      96,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "hit": {
+   "source_action": "ACTION_HIT",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hit",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -58,
+      -15,
+      0,
+      116,
+      30,
+      157
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "hit_fly": {
+   "source_action": "ACTION_HIT_FLY",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hit-fly",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      -6,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -46,
+      -15,
+      0,
+      96,
+      30,
+      162
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "hit_fly_fall": {
+   "source_action": "ACTION_HIT_FLY_FALL",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "hit-fly-fall",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      81,
+      30,
+      127
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "fall": {
+   "source_action": "ACTION_FALL",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "fall",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -61,
+      -15,
+      0,
+      81,
+      30,
+      127
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "jump_stomp": {
+   "source_action": "ACTION_JUMP_STOMP",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "fall",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      152
+     ],
+     "attack_box": [
+      -40,
+      -15,
+      0,
+      81,
+      30,
+      40
+     ]
+    }
+   ]
+  },
+  "jump_elbow": {
+   "source_action": "ACTION_JUMP_ELBOW",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "jump-elbow",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -78,
+      -15,
+      0,
+      157,
+      30,
+      122
+     ],
+     "attack_box": [
+      -28,
+      -15,
+      -5,
+      106,
+      30,
+      51
+     ]
+    }
+   ]
+  },
+  "guillotine": {
+   "source_action": "ACTION_GUILLOTINE",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "sit",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": true,
+     "horiz_flip": false,
+     "hit_box": [
+      -46,
+      -15,
+      0,
+      106,
+      30,
+      142
+     ],
+     "attack_box": [
+      -46,
+      -15,
+      0,
+      106,
+      30,
+      51
+     ]
+    }
+   ]
+  },
+  "lift_stance": {
+   "source_action": "ACTION_LIFT_STANCE",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      86,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "lift_walk": {
+   "source_action": "ACTION_LIFT_WALK",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift-walk-01",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      -2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      86,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      86,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift-walk-02",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      -2
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      86,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      86,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "lift_run": {
+   "source_action": "ACTION_LIFT_RUN",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift-run",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      10
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      86,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift-walk-02",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -43,
+      -15,
+      0,
+      86,
+      30,
+      142
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "lift_jump": {
+   "source_action": "ACTION_LIFT_JUMP",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift-jump",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      10
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -53,
+      -15,
+      0,
+      106,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "lift_fall": {
+   "source_action": "ACTION_LIFT_FALL",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lift-fall",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      10
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -53,
+      -15,
+      0,
+      106,
+      30,
+      152
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "ride": {
+   "source_action": "ACTION_RIDE",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "ride",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      5
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -30,
+      -15,
+      0,
+      81,
+      30,
+      122
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "ride_attack": {
+   "source_action": "ACTION_RIDE_ATTACK",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "ride-attack-01",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      5
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -30,
+      -15,
+      0,
+      81,
+      30,
+      122
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "ride-attack-02",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      5
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -30,
+      -15,
+      0,
+      81,
+      30,
+      122
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "lying": {
+   "source_action": "ACTION_LYING",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lying",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      162,
+      30,
+      66
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "lying_hit": {
+   "source_action": "ACTION_LYING_HIT",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lying-hit",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      162,
+      30,
+      66
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "tummy_hit_fly": {
+   "source_action": "ACTION_TUMMY_HIT_FLY",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "tummy-hit-fly",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      162,
+      30,
+      66
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "tummy": {
+   "source_action": "ACTION_TUMMY",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "tummy",
+     "duration_ticks": 100,
+     "duration_sec": 2.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      162,
+      30,
+      66
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "tummy_hit": {
+   "source_action": "ACTION_TUMMY_HIT",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "tummy-hit",
+     "duration_ticks": 10,
+     "duration_sec": 0.2,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -81,
+      -15,
+      0,
+      162,
+      30,
+      66
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "lying_dying": {
+   "source_action": "ACTION_LYING_DYING",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lying",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "lying-hit",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "tummy_dying": {
+   "source_action": "ACTION_TUMMY_DYING",
+   "replay": true,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "tummy",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "tummy-hit",
+     "duration_ticks": 5,
+     "duration_sec": 0.1,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "half_lying": {
+   "source_action": "ACTION_HALF_LYING",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "half-lying",
+     "duration_ticks": 50,
+     "duration_sec": 1.0,
+     "offset": [
+      5,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      71,
+      30,
+      89
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "half_stance": {
+   "source_action": "ACTION_HALF_STANCE",
+   "replay": false,
+   "frames": [
+    {
+     "texture": "assets/roles/chadwick/front.png",
+     "graph_name": "half-stance",
+     "duration_ticks": 50,
+     "duration_sec": 1.0,
+     "offset": [
+      0,
+      0
+     ],
+     "new_attack": false,
+     "horiz_flip": false,
+     "hit_box": [
+      -40,
+      -15,
+      0,
+      71,
+      30,
+      89
+     ],
+     "attack_box": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ }
+}

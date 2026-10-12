@@ -11,6 +11,10 @@ static var _role_name_fallbacks: Dictionary = {
 	"ryguy": "Ryguy",
 	"nate": "Nate-O-Rade",
 	"eril": "Eril",
+	"brad": "Brad",
+	"gladys": "Gladys",
+	"hive": "Hive",
+	"chadwick": "Chadwick",
 }
 
 static var _skill_label_fallbacks: Dictionary = {
@@ -129,6 +133,8 @@ static func get_role_ids() -> Array[String]:
 	var ids: Array[String] = []
 	var roles: Dictionary = load_roles()
 	for role in roles.get("roles", []):
+		if not bool(role.get("playable", true)):
+			continue
 		ids.append(String(role.get("id", "")))
 	return ids
 

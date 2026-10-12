@@ -167,6 +167,106 @@
 			"action_data": "resources/data/actions/eril.json",
 			"portrait": "assets/roles/eril/front.png",
 			"default_action": "stance"
+		},
+		{
+			"id": "brad",
+			"source_role": "ROLE_BRAD",
+			"name": "Brad",
+			"player_type": "enemy",
+			"playable": false,
+			"stats": {
+				"cur_hp": 720,
+				"max_hp": 720,
+				"punch": 90,
+				"kick": 110,
+				"speed": 120,
+				"throw": 60,
+				"defense": 80
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/brad.json",
+			"portrait": "assets/roles/brad/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "gladys",
+			"source_role": "ROLE_GLADYS",
+			"name": "Gladys",
+			"player_type": "enemy",
+			"playable": false,
+			"stats": {
+				"cur_hp": 810,
+				"max_hp": 810,
+				"punch": 80,
+				"kick": 100,
+				"speed": 110,
+				"throw": 70,
+				"defense": 90
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/gladys.json",
+			"portrait": "assets/roles/gladys/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "hive",
+			"source_role": "ROLE_HIVE",
+			"name": "Hive",
+			"player_type": "enemy",
+			"playable": false,
+			"stats": {
+				"cur_hp": 1980,
+				"max_hp": 1980,
+				"punch": 150,
+				"kick": 130,
+				"speed": 80,
+				"throw": 120,
+				"defense": 140
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/hive.json",
+			"portrait": "assets/roles/hive/front.png",
+			"default_action": "stance"
+		},
+		{
+			"id": "chadwick",
+			"source_role": "ROLE_CHADWICK",
+			"name": "Chadwick",
+			"player_type": "enemy",
+			"playable": false,
+			"stats": {
+				"cur_hp": 3960,
+				"max_hp": 3960,
+				"punch": 190,
+				"kick": 160,
+				"speed": 95,
+				"throw": 140,
+				"defense": 170
+			},
+			"skills": [
+				"mach_b_attack",
+				"spinhit",
+				"bombkick"
+			],
+			"total_skill": 3,
+			"action_data": "resources/data/actions/chadwick.json",
+			"portrait": "assets/roles/chadwick/front.png",
+			"default_action": "stance"
 		}
 	]
 }

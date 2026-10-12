@@ -164,26 +164,27 @@
 					"trigger": 480,
 					"wall": 960,
 					"enemies": [
-						"spence",
-						"vince"
+						"brad",
+						"gladys"
 					]
 				},
 				{
 					"trigger": 1100,
 					"wall": 1640,
 					"enemies": [
-						"spence",
-						"vince",
-						"rick"
+						"brad",
+						"gladys",
+						"hive"
 					]
 				},
 				{
 					"trigger": 1700,
 					"wall": 2080,
 					"enemies": [
-						"rick",
-						"ryguy",
-						"nate"
+						"hive",
+						"gladys",
+						"brad",
+						"chadwick"
 					]
 				}
 			]
