@@ -142,10 +142,12 @@ func _ready() -> void:
 	_menu_bgm_player.bus = "Master"
 	_menu_bgm_player.volume_db = -6.0
 	add_child(_menu_bgm_player)
-	_start_splash()
+	_start_intro()
 
 
 func _process(delta: float) -> void:
+	if _intro != null:
+		return
 	if _splash_phase >= 0 and _splash_phase < 3:
 		_update_splash(delta)
 		return
@@ -174,6 +176,8 @@ func _notification(what: int) -> void:
 
 
 func _unhandled_input(event: InputEvent) -> void:
+	if _intro != null:
+		return
 	if _splash_phase >= 0 and _splash_phase < 3:
 		if event is InputEventKey and event.pressed:
 			_finish_splash()
@@ -287,6 +291,30 @@ func _refresh_submenu_text() -> void:
 			var scuffle_btn: Button = submenu_buttons.get_node_or_null("Scuffle") as Button
 			if scuffle_btn != null:
 				scuffle_btn.text = Localization.text("menu.mode_scuffle")
+
+
+# --- Intro (original logo, Brady lineup and title screen) ---
+
+const INTRO_FLOW: GDScript = preload("res://scripts/ui/intro_flow.gd")
+var _intro: Control = null
+
+
+func _start_intro() -> void:
+	_splash_phase = 3
+	_set_menu_overlay_visible(false)
+	_intro = INTRO_FLOW.new() as Control
+	add_child(_intro)
+	_intro.finished.connect(_on_intro_finished)
+
+
+func _on_intro_finished() -> void:
+	if _intro != null:
+		_intro.queue_free()
+		_intro = null
+	_set_menu_overlay_visible(true)
+	_start_demo_battle()
+	_activate_menu("main")
+	_start_menu_bgm()
 
 
 # --- Splash Screen ---
