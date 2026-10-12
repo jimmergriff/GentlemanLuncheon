@@ -175,13 +175,13 @@
 			"player_type": "enemy",
 			"playable": false,
 			"stats": {
-				"cur_hp": 720,
-				"max_hp": 720,
-				"punch": 90,
-				"kick": 110,
-				"speed": 120,
+				"cur_hp": 120,
+				"max_hp": 120,
+				"punch": 600,
+				"kick": 600,
+				"speed": 150,
 				"throw": 60,
-				"defense": 80
+				"defense": 0
 			},
 			"skills": [
 				"mach_b_attack",
@@ -205,13 +205,13 @@
 			"player_type": "enemy",
 			"playable": false,
 			"stats": {
-				"cur_hp": 810,
-				"max_hp": 810,
-				"punch": 80,
-				"kick": 100,
-				"speed": 110,
+				"cur_hp": 140,
+				"max_hp": 140,
+				"punch": 600,
+				"kick": 600,
+				"speed": 130,
 				"throw": 70,
-				"defense": 90
+				"defense": 0
 			},
 			"skills": [
 				"mach_b_attack",
@@ -235,13 +235,13 @@
 			"player_type": "enemy",
 			"playable": false,
 			"stats": {
-				"cur_hp": 1980,
-				"max_hp": 1980,
-				"punch": 150,
-				"kick": 130,
-				"speed": 80,
+				"cur_hp": 240,
+				"max_hp": 240,
+				"punch": 900,
+				"kick": 900,
+				"speed": 100,
 				"throw": 120,
-				"defense": 140
+				"defense": 0
 			},
 			"skills": [
 				"mach_b_attack",
@@ -265,13 +265,13 @@
 			"player_type": "enemy",
 			"playable": false,
 			"stats": {
-				"cur_hp": 3960,
-				"max_hp": 3960,
-				"punch": 190,
-				"kick": 160,
-				"speed": 95,
+				"cur_hp": 480,
+				"max_hp": 480,
+				"punch": 1200,
+				"kick": 1200,
+				"speed": 110,
 				"throw": 140,
-				"defense": 170
+				"defense": 0
 			},
 			"skills": [
 				"mach_b_attack",
