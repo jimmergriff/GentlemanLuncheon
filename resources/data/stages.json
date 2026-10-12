@@ -1,82 +1,192 @@
 {
-  "stages": [
-	{
-	  "id": "arena_1",
-	  "name": "Arena 1",
-	  "background": "assets/extracted/scenes/arena-1.png",
-	  "bgm": "assets/audio/bgm/stage01.ogg",
-	  "size": [992, 352],
-	  "land_origin": [16, 200],
-	  "land_size": [960, 140],
-	  "anim_frames": 1
-	},
-	{
-	  "id": "arena_2",
-	  "name": "Arena 2 - Electric",
-	  "background": "assets/extracted/scenes/arena-2.png",
-	  "bgm": "assets/audio/bgm/stage02.ogg",
-	  "size": [736, 352],
-	  "land_origin": [16, 200],
-	  "land_size": [704, 140],
-	  "anim_frames": 3,
-	  "anim_pattern": "assets/extracted/scenes/arena-2-frame-%d.png",
-	  "anim_interval": 0.28
-	},
-	{
-	  "id": "arena_3",
-	  "name": "Arena 3 - Conveyor",
-	  "background": "assets/extracted/scenes/arena-3.png",
-	  "bgm": "assets/audio/bgm/stage03.ogg",
-	  "size": [992, 352],
-	  "land_origin": [16, 200],
-	  "land_size": [960, 140],
-	  "anim_frames": 3,
-	  "anim_pattern": "assets/extracted/scenes/arena-3-frame-%d.png",
-	  "anim_interval": 0.52
-	},
-	{
-	  "id": "arena_4",
-	  "name": "Arena 4 - Mines",
-	  "background": "assets/extracted/scenes/arena-4.png",
-	  "bgm": "assets/audio/bgm/stage04.ogg",
-	  "size": [736, 352],
-	  "land_origin": [16, 200],
-	  "land_size": [704, 140],
-	  "anim_frames": 1
-	},
-	{
-	  "id": "arena_5",
-	  "name": "Arena 5",
-	  "background": "assets/extracted/scenes/arena-5.png",
-	  "bgm": "assets/audio/bgm/stage05.ogg",
-	  "size": [928, 352],
-	  "land_origin": [16, 200],
-	  "land_size": [896, 140],
-	  "anim_frames": 1
-	},
-	{
-	  "id": "arena_6",
-	  "name": "Arena 6 - Water",
-	  "background": "assets/extracted/scenes/arena-6.png",
-	  "bgm": "assets/audio/bgm/stage06.ogg",
-	  "size": [960, 352],
-	  "land_origin": [16, 200],
-	  "land_size": [928, 140],
-	  "anim_frames": 3,
-	  "anim_pattern": "assets/extracted/scenes/arena-6-frame-%d.png",
-	  "anim_interval": 0.28
-	},
-	{
-	  "id": "arena_7",
-	  "name": "Arena 7 - Bridge",
-	  "background": "assets/extracted/scenes/arena-7.png",
-	  "bgm": "assets/audio/bgm/stage07.ogg",
-	  "size": [864, 352],
-	  "land_origin": [16, 200],
-	  "land_size": [832, 140],
-	  "anim_frames": 16,
-	  "anim_pattern": "assets/extracted/scenes/arena-7-frame-%d.png",
-	  "anim_interval": 0.267
-	}
-  ]
+	"stages": [
+		{
+			"id": "arena_1",
+			"name": "Arena 1",
+			"background": "assets/extracted/scenes/arena-1.png",
+			"bgm": "assets/audio/bgm/stage01.ogg",
+			"size": [
+				992,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				960,
+				140
+			],
+			"anim_frames": 1
+		},
+		{
+			"id": "arena_2",
+			"name": "Arena 2 - Electric",
+			"background": "assets/extracted/scenes/arena-2.png",
+			"bgm": "assets/audio/bgm/stage02.ogg",
+			"size": [
+				736,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				704,
+				140
+			],
+			"anim_frames": 3,
+			"anim_pattern": "assets/extracted/scenes/arena-2-frame-%d.png",
+			"anim_interval": 0.28
+		},
+		{
+			"id": "arena_3",
+			"name": "Arena 3 - Conveyor",
+			"background": "assets/extracted/scenes/arena-3.png",
+			"bgm": "assets/audio/bgm/stage03.ogg",
+			"size": [
+				992,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				960,
+				140
+			],
+			"anim_frames": 3,
+			"anim_pattern": "assets/extracted/scenes/arena-3-frame-%d.png",
+			"anim_interval": 0.52
+		},
+		{
+			"id": "arena_4",
+			"name": "Arena 4 - Mines",
+			"background": "assets/extracted/scenes/arena-4.png",
+			"bgm": "assets/audio/bgm/stage04.ogg",
+			"size": [
+				736,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				704,
+				140
+			],
+			"anim_frames": 1
+		},
+		{
+			"id": "arena_5",
+			"name": "Arena 5",
+			"background": "assets/extracted/scenes/arena-5.png",
+			"bgm": "assets/audio/bgm/stage05.ogg",
+			"size": [
+				928,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				896,
+				140
+			],
+			"anim_frames": 1
+		},
+		{
+			"id": "arena_6",
+			"name": "Arena 6 - Water",
+			"background": "assets/extracted/scenes/arena-6.png",
+			"bgm": "assets/audio/bgm/stage06.ogg",
+			"size": [
+				960,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				928,
+				140
+			],
+			"anim_frames": 3,
+			"anim_pattern": "assets/extracted/scenes/arena-6-frame-%d.png",
+			"anim_interval": 0.28
+		},
+		{
+			"id": "arena_7",
+			"name": "Arena 7 - Bridge",
+			"background": "assets/extracted/scenes/arena-7.png",
+			"bgm": "assets/audio/bgm/stage07.ogg",
+			"size": [
+				864,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				832,
+				140
+			],
+			"anim_frames": 16,
+			"anim_pattern": "assets/extracted/scenes/arena-7-frame-%d.png",
+			"anim_interval": 0.267
+		},
+		{
+			"id": "kitchen",
+			"name": "Eril's Kitchen",
+			"background": "assets/stages/kitchen.png",
+			"bgm": "assets/audio/bgm/stage01.ogg",
+			"size": [
+				2400,
+				352
+			],
+			"land_origin": [
+				16,
+				200
+			],
+			"land_size": [
+				2368,
+				140
+			],
+			"anim_frames": 1,
+			"sections": [
+				{
+					"trigger": 480,
+					"wall": 960,
+					"enemies": [
+						"spence",
+						"vince"
+					]
+				},
+				{
+					"trigger": 1100,
+					"wall": 1640,
+					"enemies": [
+						"spence",
+						"vince",
+						"rick"
+					]
+				},
+				{
+					"trigger": 1700,
+					"wall": 2080,
+					"enemies": [
+						"rick",
+						"ryguy",
+						"nate"
+					]
+				}
+			]
+		}
+	]
 }

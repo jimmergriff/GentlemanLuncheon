@@ -980,6 +980,8 @@ func _on_submenu_pressed(action: String) -> void:
 			_show_role_select_2v2()
 		"Scuffle":
 			_show_role_select()
+		"UnusedA":
+			_show_role_select_story()
 		"TrainingDummy":
 			_show_role_select(true)
 		"KeyboardSettings":
@@ -1038,7 +1040,7 @@ func _show_help_submenu() -> void:
 
 func _apply_single_game_submenu() -> void:
 	submenu_title.text = Localization.text("menu.single_game")
-	_set_submenu_buttons(true, true, false, false)
+	_set_submenu_buttons(true, true, true, false)
 	var training_btn: Button = _find_or_create_submenu_button("TrainingDummy", Localization.text("menu.training_dummy"))
 	training_btn.visible = true
 	var mode_2v2_btn: Button = submenu_buttons.get_node_or_null("Mode2v2") as Button
@@ -1218,6 +1220,8 @@ func _set_submenu_buttons(show_2v2: bool, show_scuffle: bool, show_placeholder_a
 	var node_a: Node = submenu_buttons.get_node_or_null("UnusedA")
 	if node_a != null:
 		node_a.visible = show_placeholder_a
+		if node_a is Button:
+			(node_a as Button).text = Localization.text("menu.mode_story")
 	var node_b: Node = submenu_buttons.get_node_or_null("UnusedB")
 	if node_b != null:
 		node_b.visible = show_placeholder_b
@@ -1226,10 +1230,24 @@ func _set_submenu_buttons(show_2v2: bool, show_scuffle: bool, show_placeholder_a
 
 var _pending_training_dummy: bool = false
 var _pending_2v2: bool = false
+var _pending_story: bool = false
 
 func _show_role_select(training_dummy: bool = false) -> void:
 	_pending_training_dummy = training_dummy
 	_pending_2v2 = false
+	_pending_story = false
+	role_select.visible = true
+	submenu_panel.visible = false
+	_selected_role_index = 0
+	_active_menu = "role_select"
+	_apply_role_select_layout()
+	_update_role_selection()
+
+
+func _show_role_select_story() -> void:
+	_pending_training_dummy = false
+	_pending_2v2 = false
+	_pending_story = true
 	role_select.visible = true
 	submenu_panel.visible = false
 	_selected_role_index = 0
@@ -1241,6 +1259,7 @@ func _show_role_select(training_dummy: bool = false) -> void:
 func _show_role_select_2v2() -> void:
 	_pending_training_dummy = false
 	_pending_2v2 = true
+	_pending_story = false
 	role_select.visible = true
 	submenu_panel.visible = false
 	_selected_role_index = 0
@@ -1267,7 +1286,10 @@ func _on_confirm_role() -> void:
 	role_select.visible = false
 	_active_menu = "none"
 	var role_id: String = _role_ids[_selected_role_index]
-	if _pending_2v2:
+	if _pending_story:
+		_pending_story = false
+		_start_battle_story(role_id)
+	elif _pending_2v2:
 		_pending_2v2 = false
 		_start_battle_2v2(role_id)
 	else:
@@ -1367,6 +1389,28 @@ func _start_battle(player_role_id: String, training_dummy: bool = false) -> void
 		"player_role_id": player_role_id,
 		"cpu_role_ids": cpu_roles,
 		"training_dummy": training_dummy,
+		"ai_difficulty": ai_difficulty,
+	})
+	_set_menu_overlay_visible(false)
+
+
+func _start_battle_story(player_role_id: String) -> void:
+	_pause_demo_battle()
+	_stop_menu_bgm()
+	main_menu.visible = false
+	submenu_panel.visible = false
+	logo.visible = false
+	_current_battle = BATTLE_SCENE.instantiate() as BattleScene
+	battle_host.add_child(_current_battle)
+	_current_battle.exit_requested.connect(_on_battle_exit_requested)
+	var config: Node = get_node_or_null("/root/GameConfig")
+	var ai_difficulty: String = "normal"
+	if config != null:
+		ai_difficulty = String(config.get("ai_difficulty"))
+	_current_battle.start_session({
+		"story": true,
+		"stage_id": "kitchen",
+		"player_role_id": player_role_id,
 		"ai_difficulty": ai_difficulty,
 	})
 	_set_menu_overlay_visible(false)

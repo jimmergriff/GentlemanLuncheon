@@ -67,6 +67,10 @@ var _pause_menu_subtitle: Label = null
 var _pause_menu_buttons: VBoxContainer = null
 var _pause_buttons: Array[Button] = []
 var _pause_focus_index: int = 0
+var _story: bool = false
+var _sections: Array = []
+var _section_index: int = 0
+var _section_live: bool = false
 
 
 func _ready() -> void:
@@ -392,6 +396,10 @@ func _refresh_info_label() -> void:
 	if fighters.is_empty():
 		battle_hud.set_center_text(Localization.text("battle.mode.ffa"))
 		return
+	if _story and battle_finished:
+		var story_key: String = "battle.result.team_win" if _team_alive(0) else "battle.result.team_lose"
+		battle_hud.show_result_banner(_format_result_banner(Localization.text(story_key)))
+		return
 	if not battle_finished:
 		battle_hud.set_center_text(
 			Localization.text("battle.mode.team") if battle_mode == "2v2" else Localization.text("battle.mode.ffa")
@@ -480,8 +488,9 @@ func _process(delta: float) -> void:
 		if _demo_restart_timer <= 0.0:
 			start_session(session_data.duplicate(true))
 		return
-	if fighters.size() >= 2:
+	if not fighters.is_empty():
 		_update_camera()
+		_update_story_sections()
 		_check_battle_state()
 	elif _menu_demo_camera:
 		_apply_embedded_demo_camera()
@@ -543,6 +552,10 @@ func _load_stage() -> void:
 	stage_data = GameData.load_stage(stage_id)
 	if stage_data.is_empty():
 		stage_data = GameData.load_stage("arena_1")
+	_sections = stage_data.get("sections", [])
+	_story = bool(session_data.get("story", false)) and not _sections.is_empty()
+	_section_index = 0
+	_section_live = false
 	var size_values: Array = stage_data.get("size", [1280, 510])
 	var stage_size: Vector2 = Vector2(float(size_values[0]), float(size_values[1]))
 	_stage_size = stage_size
@@ -558,6 +571,9 @@ func _load_stage() -> void:
 		Vector2(float(stage_data.get("land_origin", [20, 268])[0]), float(stage_data.get("land_origin", [20, 268])[1])),
 		Vector2(float(stage_data.get("land_size", [1240, 242])[0]), float(stage_data.get("land_size", [1240, 242])[1]))
 	)
+	if _story:
+		_camera_base.x = stage_rect.position.x + 300.0
+		camera.position = _camera_base
 	_load_bg_anim()
 
 
@@ -568,7 +584,12 @@ func _spawn_fighters() -> void:
 	var player_prefix: String = "p1" if player_mode == "human" else ""
 	var ai_difficulty: String = String(session_data.get("ai_difficulty", "normal"))
 
-	if battle_mode == "2v2":
+	if _story:
+		roster.append({
+			"role_id": String(session_data.get("player_role_id", "beach")),
+			"mode": player_mode, "prefix": player_prefix, "team": 0,
+		})
+	elif battle_mode == "2v2":
 		# Team 0: player + partner, Team 1: two enemies
 		roster.append({
 			"role_id": String(session_data.get("player_role_id", "beach")),
@@ -626,6 +647,10 @@ func _spawn_fighters() -> void:
 			fighter.hp = fighter.max_hp
 			fighter.hp_changed.emit(fighter.hp, fighter.max_hp)
 
+	if _story:
+		fighters[0].set_spawn_position(Vector2(stage_rect.position.x + 140.0, stage_rect.position.y + stage_rect.size.y * 0.5))
+		return
+
 	# Spawn positions: team 0 on left, team 1 on right
 	var mid_x: float = stage_rect.position.x + stage_rect.size.x / 2.0
 	var base_y: float = stage_rect.position.y + stage_rect.size.y / 2.0
@@ -667,10 +692,14 @@ func _on_fighter_defeated(_defeated_fighter: Fighter, fighter: Fighter) -> void:
 	var fighter_index: int = fighters.find(fighter)
 	if fighter_index >= 0:
 		battle_hud.set_slot_defeated(fighter_index, true)
+	_refresh_opponents()
 
 
 func _check_battle_state() -> void:
 	if battle_finished:
+		return
+	if _story:
+		_check_story_state()
 		return
 	if battle_mode == "2v2":
 		_check_team_battle_state()
@@ -756,6 +785,8 @@ func _update_camera() -> void:
 		stage_rect.position.x + stage_rect.size.x - half_vp
 	)
 	var desired_x: float = clampf(target_x, camera_min_x, maxf(camera_max_x, camera_min_x))
+	if _story:
+		desired_x = minf(desired_x, _story_camera_limit())
 	_camera_base.x = lerpf(_camera_base.x, desired_x, follow_speed)
 	camera.position = _camera_base
 	camera.offset = _shake_offset
@@ -822,10 +853,13 @@ func _spawn_damage_number(damage: int, world_pos: Vector2, target_id: int) -> vo
 
 
 func _pick_random_stage() -> String:
-	var all_stages: Array = GameData.get_stage_ids()
-	if all_stages.is_empty():
+	var candidates: Array = []
+	for stage_id in GameData.get_stage_ids():
+		if GameData.load_stage(String(stage_id)).get("sections", []).is_empty():
+			candidates.append(stage_id)
+	if candidates.is_empty():
 		return "arena_1"
-	return all_stages[randi() % all_stages.size()]
+	return candidates[randi() % candidates.size()]
 
 
 func _start_bgm() -> void:
@@ -894,3 +928,81 @@ func _update_bg_anim(delta: float) -> void:
 	_bg_anim_timer = 0.0
 	_bg_anim_index = (_bg_anim_index + 1) % _bg_anim_frames.size()
 	background.texture = _bg_anim_frames[_bg_anim_index]
+
+
+# ---- story mode: waves gated by camera sections ----
+
+func _story_camera_limit() -> float:
+	if _section_index >= _sections.size():
+		return stage_rect.position.x + stage_rect.size.x
+	var section: Dictionary = _sections[_section_index]
+	return float(section["wall"]) if _section_live else float(section["trigger"])
+
+
+func _update_story_sections() -> void:
+	if not _story or _section_index >= _sections.size():
+		return
+	if not _section_live:
+		var trigger_x: float = float(_sections[_section_index]["trigger"])
+		if _camera_base.x >= trigger_x - 2.0:
+			_spawn_story_enemies(_sections[_section_index]["enemies"])
+			_section_live = true
+	elif not _team_alive(1):
+		_section_live = false
+		_section_index += 1
+
+
+func _spawn_story_enemies(role_ids: Array) -> void:
+	var half_w: float = get_viewport_rect().size.x * 0.5 / maxf(camera.zoom.x, 0.001)
+	var right_edge: float = _camera_base.x + half_w
+	for i in range(role_ids.size()):
+		var fighter: Fighter = FIGHTER_SCENE.instantiate() as Fighter
+		fighters_root.add_child(fighter)
+		fighter.setup(GameData.load_role(String(role_ids[i])), stage_rect, "cpu", "")
+		fighter.ai_difficulty = String(session_data.get("ai_difficulty", "normal"))
+		fighter.team_id = 1
+		fighter.hp_changed.connect(_on_fighter_hp_changed.bind(fighter))
+		fighter.defeated.connect(_on_fighter_defeated.bind(fighter))
+		fighters.append(fighter)
+		_prev_hp[fighter.get_instance_id()] = fighter.max_hp
+		if _hit_flash_material != null:
+			fighter.visual.material = _hit_flash_material.duplicate() as ShaderMaterial
+		var lane_y: float = stage_rect.position.y + 30.0 + float(i % 3) * 40.0
+		fighter.set_spawn_position(Vector2(right_edge + 24.0 + float(i) * 56.0, lane_y))
+	_refresh_opponents()
+
+
+func _refresh_opponents() -> void:
+	for fighter in fighters:
+		var others: Array[Fighter] = []
+		for other in fighters:
+			if other == fighter:
+				continue
+			if _story:
+				if other.team_id != fighter.team_id and not other.is_defeated():
+					others.append(other)
+			elif battle_mode == "2v2":
+				if other.team_id != fighter.team_id:
+					others.append(other)
+			else:
+				others.append(other)
+		fighter.set_opponents(others)
+
+
+func _team_alive(team_id: int) -> bool:
+	for fighter in fighters:
+		if fighter.team_id == team_id and not fighter.is_defeated():
+			return true
+	return false
+
+
+func _check_story_state() -> void:
+	if not _team_alive(0):
+		battle_finished = true
+		_play_result_sfx("lost")
+		_refresh_info_label()
+		return
+	if _section_index >= _sections.size() and not _section_live:
+		battle_finished = true
+		_play_result_sfx("win")
+		_refresh_info_label()
