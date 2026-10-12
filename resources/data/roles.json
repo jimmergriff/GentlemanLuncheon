@@ -191,7 +191,12 @@
 			"total_skill": 3,
 			"action_data": "resources/data/actions/brad.json",
 			"portrait": "assets/roles/brad/front.png",
-			"default_action": "stance"
+			"default_action": "stance",
+			"ai": {
+				"windup": 0.45,
+				"cooldown": 1.2,
+				"range": 110
+			}
 		},
 		{
 			"id": "gladys",
@@ -216,7 +221,12 @@
 			"total_skill": 3,
 			"action_data": "resources/data/actions/gladys.json",
 			"portrait": "assets/roles/gladys/front.png",
-			"default_action": "stance"
+			"default_action": "stance",
+			"ai": {
+				"windup": 0.5,
+				"cooldown": 1.5,
+				"range": 110
+			}
 		},
 		{
 			"id": "hive",
@@ -241,7 +251,12 @@
 			"total_skill": 3,
 			"action_data": "resources/data/actions/hive.json",
 			"portrait": "assets/roles/hive/front.png",
-			"default_action": "stance"
+			"default_action": "stance",
+			"ai": {
+				"windup": 0.75,
+				"cooldown": 1.8,
+				"range": 120
+			}
 		},
 		{
 			"id": "chadwick",
@@ -266,7 +281,12 @@
 			"total_skill": 3,
 			"action_data": "resources/data/actions/chadwick.json",
 			"portrait": "assets/roles/chadwick/front.png",
-			"default_action": "stance"
+			"default_action": "stance",
+			"ai": {
+				"windup": 0.7,
+				"cooldown": 1.4,
+				"range": 120
+			}
 		}
 	]
 }

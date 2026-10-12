@@ -315,6 +315,9 @@ var last_right_tap: float = -10.0
 var elapsed_time: float = 0.0
 
 var ai_timer: float = 0.0
+var story_profile: Dictionary = {}
+var _story_windup_t: float = 0.0
+var _story_cool_t: float = 0.0
 var ai_action: String = "observe"
 var _sfx_action: AudioStreamPlayer = null
 var _sfx_react: AudioStreamPlayer = null
@@ -362,6 +365,7 @@ func setup(config: Dictionary, stage_rect: Rect2, mode: String, prefix: String) 
 	control_mode = mode
 	control_prefix = prefix
 	battle_rect = stage_rect
+	story_profile = config.get("ai", {})
 	max_hp = int(role_data.get("stats", {}).get("max_hp", 1000))
 	hp = max_hp
 	last_damage_attack_name = ""
@@ -527,6 +531,38 @@ func _sync_key_control() -> void:
 		control_run = false
 
 
+func _update_story_ai(target: Fighter) -> void:
+	control_left_motion = false
+	control_right_motion = false
+	control_up_motion = false
+	control_down_motion = false
+	control_a_attack = false
+	control_b_attack = false
+	control_jump = false
+	control_defense = false
+	control_run = false
+	var delta: float = get_physics_process_delta_time()
+	_story_cool_t = maxf(_story_cool_t - delta, 0.0)
+	var dx: float = target.ground_position.x - ground_position.x
+	var dy: float = target.ground_position.y - ground_position.y
+	var reach: float = float(story_profile.get("range", 110.0))
+	var in_range: bool = absf(dx) <= reach and absf(dy) <= 24.0
+	if not in_range:
+		_story_windup_t = 0.0
+		_set_ai_horizontal(dx)
+		_set_ai_vertical(dy)
+		return
+	if _story_cool_t > 0.0 or not (current_state in ["stance", "walk", "ready"]):
+		return
+	_story_windup_t += delta
+	if _story_windup_t < float(story_profile.get("windup", 0.5)):
+		ai_action = "windup"
+		return
+	control_a_attack = true
+	_story_windup_t = 0.0
+	_story_cool_t = float(story_profile.get("cooldown", 1.5)) * rng.randf_range(0.85, 1.15)
+
+
 func _update_ai() -> void:
 	control_left_motion = false
 	control_right_motion = false
@@ -553,6 +589,10 @@ func _update_ai() -> void:
 	var target: Fighter = _get_primary_target()
 	if target == null or is_defeated():
 		control_run = false
+		return
+
+	if not story_profile.is_empty():
+		_update_story_ai(target)
 		return
 
 	var dx: float = target.ground_position.x - ground_position.x
