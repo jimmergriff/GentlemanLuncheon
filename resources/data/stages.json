@@ -145,7 +145,7 @@
 			"id": "kitchen",
 			"name": "Eril's Kitchen",
 			"background": "assets/stages/kitchen.png",
-			"bgm": "assets/audio/bgm/stage01.ogg",
+			"bgm": "assets/audio/bgm/kitchen_xmas.wav",
 			"size": [
 				2400,
 				352
